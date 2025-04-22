@@ -1,0 +1,942 @@
+```json
+{
+  "company_name": "GIG Gulf",
+  "plan_details": {
+    "plan_name": "Group Health Insurance Plan for [APEX GROUP]",
+    "category": "Category-01 [UAE/Dubai] Members",
+    "client_code": null,
+    "policy_effective_date": "01/09/2024",
+    "policy_expiry_date": "31/08/2025"
+  },
+  "benefits_table": [
+    {
+      "section_name": "OFFERING",
+      "benefits": [
+        {
+          "name": "Yearly Maximum",
+          "inclusion_criteria": [],
+          "privilege": "AED 5,000,000",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Network - Inpatient",
+          "inclusion_criteria": [],
+          "privilege": "A.1",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Network - Outpatient",
+          "inclusion_criteria": [],
+          "privilege": "A.1",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Area of Cover",
+          "inclusion_criteria": [],
+          "privilege": "World wide excluding US",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Outside Area of Cover (Emergency cover only)",
+          "inclusion_criteria": [
+            "This benefit covers emergency Inpatient, day care or outpatient medical treatment during temporary business or leisure trips",
+            "(Covered up to AED 250,000)"
+          ],
+          "privilege": "World wide",
+          "exclusion_criteria": "This benefit excludes any treatment which was, or may have been reasonably known about, before travel commenced"
+        },
+        {
+          "name": "Within the Network",
+          "inclusion_criteria": [],
+          "privilege": "Direct billing within network",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Coinsurance within Country of Residence",
+          "inclusion_criteria": [],
+          "privilege": "100% of Actual Cost",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Coinsurance outside Country of Residence (within area of cover)",
+          "inclusion_criteria": [
+            "(Outside the network)"
+          ],
+          "privilege": "100% reasonable and customary in country of treatment",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Inpatient and Daycare Treatment",
+      "benefits": [
+        {
+          "name": "Daily Room and Board",
+          "inclusion_criteria": [],
+          "privilege": "Standard Private Room",
+          "exclusion_criteria": "Royal and Presidential Suite"
+        },
+        {
+          "name": "Charges of operating theater",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Surgeon fees",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Anesthesiologist fees",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Surgical appliances",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Prescribed medications",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Dressings and consumables",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Diagnostics and laboratory",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Physiotherapy",
+          "inclusion_criteria": [
+            "Integral part of the treatment and,",
+            "It is not the initial reason of admission"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Parent accommodation",
+          "inclusion_criteria": [
+            "Treatment is within the area of cover",
+            "Main admitted member is a child below 18 years old.",
+            "Fees are paid for the accommodation of the parent within the same room the child is admitted"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Companion accommodation",
+          "inclusion_criteria": [
+            "Treatment is within the area of cover",
+            "Companion shall be medically necessary and upon the request of the treating doctor",
+            "Fees are paid for the accommodation of the companion within the same room the main patient is admitted"
+          ],
+          "privilege": "AED 100 per night",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Inpatient cash benefit",
+          "inclusion_criteria": [
+            "Treatment is within the area of cover",
+            "Treatment is absolutely free of charge",
+            "Admission of the insured is medically necessary",
+            "(Excluding Qatar Members)"
+          ],
+          "privilege": "AED 650 per night",
+          "exclusion_criteria": "No other benefits will be paid for any admission where insured is getting the cash benefit"
+        }
+      ]
+    },
+    {
+      "section_name": "Outpatient Treatment",
+      "benefits": [
+        {
+          "name": "Consultations and Treatment (not including benefit extensions like Maternity, Dental Optical, Health checks and Psychiatric)",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": null
+        },
+        {
+          "name": "All Consultations Deductible/coinsurance",
+          "inclusion_criteria": [],
+          "privilege": "20% Max AED 50",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Free follow-up visits within 7 days for the same condition to the same medical practitioner within the applicable network",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Consultation (GP and Specialist)",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Physiotherapy",
+          "inclusion_criteria": [
+            "Upon referral from GP or Specialist"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Alternative and Complimentary Medicine",
+          "inclusion_criteria": [
+            "Chiropractic, Osteopathy, Homeopathy, Acupuncture, Chinese Herbal Medicine, Ayurveda treatment Chiropody and Podiatry"
+          ],
+          "privilege": "AED 10,000",
+          "exclusion_criteria": "Cupping, Aromatherapy, Bowen technique, Hypnotherapy, Massage, Meditation, Mindfulness, Reiki, Yoga, and those NOT listed in the inclusion criteria"
+        },
+        {
+          "name": "Outpatient procedures",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Speech Therapy",
+          "inclusion_criteria": [],
+          "privilege": "No benefit",
+          "exclusion_criteria": "ABA therapy and shadow learning"
+        },
+        {
+          "name": "Oculomotor Therapy",
+          "inclusion_criteria": [],
+          "privilege": "No benefit",
+          "exclusion_criteria": [
+            "Orthoptic training (eye exercises) or vision therapy",
+            "Visual perceptual training",
+            "Vision restoration therapy",
+            "Neuro-visual (optometric) rehabilitation"
+          ]
+        },
+        {
+          "name": "Occupational Therapy",
+          "inclusion_criteria": [],
+          "privilege": "No benefit",
+          "exclusion_criteria": [
+            "Educational training or services",
+            "Driver training is not considered treatment of disease because driving an automobile is not a basic activity of daily living",
+            "ABA therapy and shadow learning"
+          ]
+        },
+        {
+          "name": "Diagnostics",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Imaging (X-ray, MRI, CT, PET, Ultrasound)",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Laboratory",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Prescribed drugs/medications",
+          "inclusion_criteria": [],
+          "privilege": "Nil",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Prescribed medications limit",
+          "inclusion_criteria": [],
+          "privilege": "Covered only subject to medical necessity",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Coinsurance/Deductible",
+          "inclusion_criteria": [],
+          "privilege": "Nil",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Biologics",
+          "inclusion_criteria": [],
+          "privilege": "Covered only subject to medical necessity",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Maternity Benefit: Pregnancy and Childbirth",
+      "sub_sections": [
+        {
+          "sub_section_name": "Inpatient",
+          "benefits": [
+            {
+              "name": null,
+              "inclusion_criteria": [],
+              "privilege": "AED 36,700",
+              "exclusion_criteria": null
+            }
+          ]
+        },
+        {
+          "sub_section_name": "Outpatient",
+          "benefits": [
+            {
+              "name": null,
+              "inclusion_criteria": [],
+              "privilege": "Covered",
+              "exclusion_criteria": [
+                "Genetic testing for unborn child",
+                "Infertility Treatment"
+              ]
+            }
+          ]
+        }
+      ],
+      "benefits": [
+        {
+          "name": "Deductible/ Coinsurance on Outpatient Consultations",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Free follow-up visits within 7 days for the same condition to the same medical practitioner within the applicable network",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Diagnostics",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Prescribed medications",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Waiting period",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Pre- and post-natal complications",
+          "inclusion_criteria": [
+            "Any unforeseen medical situation that may occur during pregnancy (antenatal) childbirth or after delivery (postnatal) that require additional care or intervention, beyond that which would be required for normal course of pregnancy as it represents direct threat to the wellbeing of mother and/or baby",
+            "For a maternity claim to be considered a complicated pregnancy and for C section to eligible to be covered up to policy limit any of the below circumstances to apply:",
+            "Placenta Praevia, Pre-eclampsia and eclampsia, Fetal distress, Uterine rupture and Umbilical cord prolapse"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Newborn Cover",
+          "inclusion_criteria": [
+            "Cost of the newborn treatment is covered up to one month under mother's card as per mother's policy terms and conditions, subject to addition of the new born within 30 days from date of birth"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Routine Dental Benefit",
+      "benefits": [
+        {
+          "name": "Consultation",
+          "inclusion_criteria": [],
+          "privilege": "AED 3,670",
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Prescribed Medications",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Extraction",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Composite/Amalgam filling",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Dental surgery",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Root canal treatment",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Scaling and polishing",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Gum disease treatment",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": [
+            "Veneers, Crowns with precious metal alloys",
+            "Cosmetic procedures"
+          ]
+        },
+        {
+          "name": "Crowns / Bridgework",
+          "inclusion_criteria": [],
+          "privilege": "AED 7,340",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Orthodontic",
+          "inclusion_criteria": [],
+          "privilege": "0%",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Coinsurance on ALL Routine Dental treatment (including consultation, diagnostic and Pharmacy)",
+          "inclusion_criteria": [],
+          "privilege": "50% (Orthodontics)",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Optical Benefit",
+      "benefits": [
+        {
+          "name": "Optometrist evaluation, Optical Frames and Contact lenses",
+          "inclusion_criteria": [
+            "Routine optical services carried out by a qualified and registered ophthalmologist or optometrist; and costs of prescribed spectacles/corrective lenses for refractive errors",
+            "(Maximum of 1 Frame per year)"
+          ],
+          "privilege": "AED 2,750",
+          "exclusion_criteria": "The provision of tinted/ reactive lenses, sunglasses, non-corrective contact lenses, laser eye surgery or similar procedures"
+        },
+        {
+          "name": "Coinsurance",
+          "inclusion_criteria": [],
+          "privilege": "Nil",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "LASIK",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Health Check/Screening",
+      "benefits": [
+        {
+          "name": "Screening / Health Check-up (Routine)",
+          "inclusion_criteria": [],
+          "privilege": "AED 3,670",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Coinsurance",
+          "inclusion_criteria": [],
+          "privilege": "NIL",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Prevention",
+      "benefits": [
+        {
+          "name": "Child Preventive Services, Vaccines and Immunizations",
+          "inclusion_criteria": [
+            "Recognized and essential vaccinations and immunizations as mandated by the local regulatory authorities from where the Policy is issued"
+          ],
+          "privilege": "Covered for new born and children 0-6 years",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Adult Vaccinations and Immunizations",
+          "inclusion_criteria": [],
+          "privilege": "AED 367",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Influenza Vaccine - covered for DUBAI MEMBERS ONLY",
+          "inclusion_criteria": [],
+          "privilege": "Once a policy year as per DHA guidelines",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Adult Pneumococcal Conjugate Vaccine - covered for DUBAI MEMBERS ONLY",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Hepatitis B Virus Screening & Treatments - for DUBAI MEMBERS ONLY",
+          "inclusion_criteria": [],
+          "privilege": "Covered as per DHA guidelines for Hepatitis B support program",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Diabetes Screening every 3 years from age of 30. High risk individuals annually from age 18 for DUBAI MEMBERS ONLY",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Cancer Treatment",
+      "overall_conditions": {
+         "deductible_copayment": "Nil Deductible & Copayment"
+      },
+      "sub_sections": [
+        {
+          "sub_section_name": "Outpatient Treatment",
+          "benefits": [
+            {
+              "name": "Consultation, Laboratory investigations, Drugs, Radiological investigations, Chemotherapy and its administration and Radiotherapy",
+              "inclusion_criteria": [],
+              "privilege": "Covered",
+              "exclusion_criteria": [
+                "Genetic therapy",
+                "Dietician / Nutritionist"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_section_name": "Inpatient treatment",
+          "benefits": [
+            {
+              "name": "Charges of accommodation, Charges of operating theatre, Surgeon and anesthesiologist's fee, Drugs, Laboratory investigations, Radiological investigations, Chemotherapy, Reconstructive surgery and Radiotherapy",
+              "inclusion_criteria": [],
+              "privilege": "Covered",
+              "exclusion_criteria": [
+                "Genetic therapy",
+                "Dietician / Nutritionist"
+              ]
+            }
+          ]
+        }
+      ],
+      "benefits": [
+        {
+          "name": "Cancer support benefits",
+          "inclusion_criteria": [],
+          "privilege": null,
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Stem cells and bone marrow transplants",
+          "inclusion_criteria": [
+            "Covered when,",
+            "The transplant is medically necessary",
+            "The material to be transplanted is the beneficiary's own bone marrow or stem cells, or bone marrow taken from a verified and legitimate source"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": "Donor cost for stem cells and bone marrow transplants"
+        }
+      ]
+    },
+    {
+      "section_name": "Core Benefits",
+      "benefits": [
+        {
+          "name": "Pre-existing and Chronic conditions",
+          "inclusion_criteria": [
+            "(Inpatient and Outpatient)"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Ambulance",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Deviated Nasal Septum",
+          "inclusion_criteria": [
+            "Covered when,",
+            "Treatment related to a septal deformity",
+            "Continuous nasal airway obstruction resulting in nasal breathing difficulty not responding to appropriate medical therapy."
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": "Any cosmetic or aesthetic treatment"
+        },
+        {
+          "name": "Hormone replacement therapy",
+          "inclusion_criteria": [
+            "Implants and patches form covered"
+          ],
+          "privilege": "AED 1,850",
+          "exclusion_criteria": "Non-registered preparations locally"
+        },
+        {
+          "name": "Nursing at home",
+          "inclusion_criteria": [
+            "Recommended by a specialist following Inpatient or day patient treatment which is covered by this policy",
+            "Starts immediately after the beneficiary leaves hospital, or instead of Hospitalization"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Rehabilitation (Inpatient, day-care and Outpatient treatment)",
+          "inclusion_criteria": [
+            "Covered and must commence within 14 days of discharge after the acute medical and/or surgical treatment cases",
+            "Inpatient rehabilitation up to a maximum of 28 days"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Reconstructive Surgery",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Organ Transplant",
+          "inclusion_criteria": [
+            "Covered when,",
+            "The transplant is medically necessary",
+            "Anti-rejection medicines following a transplant, when they are given on an Inpatient basis"
+          ],
+          "privilege": "Donor's medical cost is covered upto AED 183,500",
+          "exclusion_criteria": "Donor's cost for Organ Retrieval, Acquisition, Transportation, administration and Storage organ acquisition/storage costs"
+        },
+        {
+          "name": "Passive War and Terrorism Risk",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Oral and Maxillofacial surgery",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Accidental damage of teeth",
+          "inclusion_criteria": [
+            "Treatment for teeth damaged in an accident provided that treatment is requested within 48 hours following the accident"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": "Treatment for teeth damaged as a result of consumption or food or drink or any foreign bodies contained in such food or drink"
+        },
+        {
+          "name": "International Emergency Medical Assistance (IEMA)",
+          "inclusion_criteria": [
+            "Emergency Medical Evacuation",
+            "Repatriation of mortal remains"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": "IEMA excludes injuries/sickness as a result of hazardours/sports activities; but Treatment for such conditions is covered"
+        }
+      ]
+    },
+    {
+      "section_name": "Other Benefits",
+      "benefits": [
+        {
+          "name": "Allergy testing",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Vitamins registered as medications",
+          "inclusion_criteria": [
+            "if prescribed and medically necessary for a severe deficiency)"
+          ],
+          "privilege": "Covered up to AED 550",
+          "exclusion_criteria": "Registered as supplements"
+        },
+        {
+          "name": "Developmental disorder",
+          "inclusion_criteria": [
+            "All expenses related to patient's treatment including behaviour training & behaviour management, speech therapy, occupational therapy, physical therapy and Medicine is covered)"
+          ],
+          "privilege": "AED 18,350",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Psychiatric Treatment",
+          "inclusion_criteria": [
+            "Referral required"
+          ],
+          "privilege": [
+            "In patient: Covered",
+            "Out Patient: AED 9,200"
+          ],
+          "exclusion_criteria": null
+        },
+        {
+          "name": "External Prosthetic Appliance/Prescribed Medical Aids",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Work Related Injuries",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Road Traffic Accidents",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Congenital conditions",
+          "inclusion_criteria": [],
+          "privilege": "AED 367,000",
+          "exclusion_criteria": [
+            "Non-life Threatening",
+            "Hereditary Conditions",
+            "Genetic Therapy"
+          ]
+        },
+        {
+          "name": "Circumcision",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Additional Medical Benefits",
+      "benefits": [
+        {
+          "name": "Ophthalmology",
+          "inclusion_criteria": [
+            "Eye consultation and any treatment for medical conditions related to it"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": "This excludes any routine Optical and refraction errors"
+        },
+        {
+          "name": "Renal Failure and Renal Dialysis",
+          "inclusion_criteria": [],
+          "privilege": [
+            "In patient: Covered",
+            "Out Patient: AED 367,000"
+          ],
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Obstructive Sleep Apnoea",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Palliative Treatment",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Long Term care",
+          "inclusion_criteria": [],
+          "privilege": "AED 183,000 lifetime limit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "HIV and AIDS related conditions",
+          "inclusion_criteria": [],
+          "privilege": [
+            "AED 91,750",
+            "(Cover only available after three years of continuous membership)"
+          ],
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Natural Disasters",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Epidemics",
+          "inclusion_criteria": [],
+          "privilege": "No Benefit",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Hearing, vision aids, vision correction by surgeries and laser in case of medical emergencies only",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Diagnostic and treatment services for dental and gum treatments in case of medical emergencies only",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Health On Track Benefits",
+      "benefits": [
+        {
+          "name": "Teleconsultation",
+          "inclusion_criteria": [
+            "24/7 virtual healthcare consultation with licensed GPs through voice and video calls, teleprescription, medications delivery, health guidance from a nutritionist and chronic conditions monitoring and coaching. Other features include concierge booking at the nearest provider(in UAE), no co-pay on teleconsultation, multilingual service."
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "ProAct",
+          "inclusion_criteria": [
+            "Dedicated case management for rare and complex conditions during patient treatment journey"
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Shield for Diabetes",
+          "inclusion_criteria": [
+            "End-to-end care for pre-diabetics and Type 1 & 2 diabetics from GP and nutritionist teleconsultation, medications refill and delivery, as well as telemonitoring and coaching from a dedicated team through teleconsultation."
+          ],
+          "privilege": "Covered",
+          "exclusion_criteria": null,
+          "notes": [
+            "Strips and lancets will be covered for Privilege only."
+          ]
+        },
+        {
+          "name": "Cancer Safe: Patient Support Program for patients with Breast, Cervical and Colon cancers. It provides support services and assistance to people who require long term healthcare treatments (Dubai members only)",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "Hepatitis Safe: Patient Support Program for patients with Hepatitis C. It provides support services and assistance to people who require long term healthcare treatments (Dubai members only)",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        },
+        {
+          "name": "MindSet: Holistic program aiming at raising awareness about mental health by reducing the stigma, preventing mental distress by fostering resilience and empowering employees towards a state of psychological safety at work and in their lives.",
+          "inclusion_criteria": [],
+          "privilege": "Covered",
+          "exclusion_criteria": null
+        }
+      ]
+    },
+    {
+      "section_name": "Complimentary Travel Inconvenience Cover",
+      "travel_policy": "13/ZT/2274640/0",
+      "section_note": "**Excess of USD $30 applicable for each and every claim. Children enjoy cover up to 50% of the stated limit in all chapters. This benefit is offered under GIG Gulf general insurance product and the above summary is for reference only. Please refer to full travel policy wording for product terms & conditions and exclusions.**",
+      "benefits": [
+        {
+          "item": "Personal Liability",
+          "limit": "USD 1,000,000"
+        },
+        {
+          "item": "Legal Assistance in Case of Redress",
+          "limit": "USD 4,000"
+        },
+        {
+          "item": "Advance of Bail Bond (refundable)",
+          "limit": "USD 10,000"
+        },
+        {
+          "item": "Cancellation or Curtailment",
+          "limit": "USD 5,000"
+        },
+        {
+          "item": "Delayed Departure",
+          "limit": "USD 500"
+        },
+        {
+          "item": "Delayed Baggage",
+          "limit": "USD 250"
+        },
+        {
+          "item": "Personal Baggage and Personal Money",
+          "limit": "USD 5,000"
+        },
+        {
+          "item": "Loss of Passport",
+          "limit": "USD 500"
+        },
+        {
+          "item": "Personal Accident",
+          "limit": "USD 27,500"
+        }
+      ]
+    }
+  ],
+  "general_notes": [
+    "*Please refer to Your member guide for all treatments that require prior-approval.",
+    "This Benefits Table applicable to Your plan shows the maximum benefits we will pay for each member. Please note that benefit values are reduced each time a member claims (Invoice value less any deductible, excess, Coinsurance or ineligible treatment) GIG have actually paid. In applying deductibles and coinsurance (the percentage of eligible benefit payable by the Member) GIG will subtract the deductible first and then apply the Coinsurance to the balance of eligible benefit remaining. If the member incurs costs in excess of the limits, the member will have to pay the difference."
+  ]
+}
+```
