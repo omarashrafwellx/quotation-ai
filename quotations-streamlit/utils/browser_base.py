@@ -4,7 +4,6 @@ import time
 import os
 import re
 from datetime import datetime
-import pyautogui
 from dotenv import load_dotenv
 
 load_dotenv()
