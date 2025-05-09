@@ -18,7 +18,7 @@ import subprocess
 def install_playwright():
     try:
         result = subprocess.run(["playwright", "install"], check=True, capture_output=True, text=True)
-        result_2 = subprocess.run(["sudo", "playwright","install-deps"], check=True, capture_output=True, text=True)
+        result_2 = subprocess.run(["playwright","install-deps"], check=True, capture_output=True, text=True)
         print("Playwright installed successfully:")
         print(result.stdout)
     except subprocess.CalledProcessError as e:
