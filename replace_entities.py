@@ -4,16 +4,6 @@ import datetime
 import re
 
 def find_columns(df, column_patterns):
-    """
-    Find columns in DataFrame based on patterns.
-    
-    Args:
-        df (pd.DataFrame): DataFrame to search in
-        column_patterns (dict): Dictionary with key as column type and value as regex pattern or list of keywords
-        
-    Returns:
-        dict: Dictionary with column types as keys and found column names as values
-    """
     found_columns = {}
     
     for col_type, pattern in column_patterns.items():
@@ -46,16 +36,6 @@ def find_columns(df, column_patterns):
     return found_columns
 
 def find_dataframe_with_columns(file_path, column_patterns):
-    """
-    Tries to find the best DataFrame from a file that contains the specified columns.
-    
-    Args:
-        file_path (str): Path to the CSV or Excel file
-        column_patterns (dict): Dictionary with column types as keys and patterns as values
-        
-    Returns:
-        tuple: (DataFrame, header_row, found_columns)
-    """
     file_extension = os.path.splitext(file_path)[1].lower()
     df = None
     header_row = 0
@@ -145,7 +125,6 @@ def find_dataframe_with_columns(file_path, column_patterns):
     return df, header_row, found_columns
 
 def standardize_relation(value):
-    """Standardize relation values"""
     if pd.isna(value):
         return value
     
@@ -167,7 +146,6 @@ def standardize_relation(value):
     return value.capitalize()  # Capitalize first letter for consistency
 
 def standardize_gender(value):
-    """Standardize gender values"""
     if pd.isna(value):
         return value
     
@@ -181,7 +159,6 @@ def standardize_gender(value):
     return value  # Return original if not matching
 
 def standardize_date(value):
-    """Standardize date values to Excel serial numbers"""
     if pd.isna(value):
         return value
 
@@ -205,19 +182,6 @@ def standardize_date(value):
         return value  # Return original if any error occurs
 
 def standardize_data(file_path):
-    """
-    Reads a CSV or Excel file, and standardizes:
-    1. Relation column values (if exists)
-    2. Date formats (if date columns exist)
-    3. Gender values (Male->M, Female->F) (if gender column exists)
-    
-    Args:
-        file_path (str): Path to the input CSV or Excel file
-    
-    Returns:
-        pd.DataFrame: DataFrame with standardized values
-        dict: Information about changes made
-    """
     # Define column patterns to search for
     column_patterns = {
     'relation_column': re.compile(r'relation|relationship|dependent|status|role|type', re.IGNORECASE),
@@ -255,7 +219,7 @@ def standardize_data(file_path):
     return df, changes_info
 
 def main():    
-    input_file = "MemberCensusDataTemplate.xls"
+    input_file = "files/excel/MemberCensusDataTemplate.xls"
     
     base_name, ext = os.path.splitext(input_file)
     output_file = f"{base_name}_standardized{ext}"

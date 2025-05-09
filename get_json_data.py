@@ -1,11 +1,12 @@
 import time
 import google.generativeai as genai
 import json
-# Replace with your actual Gemini API key
-API_KEY = "AIzaSyARrmT13H-8O8yQYhfjTqI3az65r_uAPb8"
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-# Configure the Gemini API client
-genai.configure(api_key=API_KEY)
+GEMINI_API_KEY =os.getenv("GEMINI_API_KEY") 
+genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_structured_data(pdf_path: str):
     # Upload the PDF file
@@ -23,7 +24,7 @@ def extract_structured_data(pdf_path: str):
     print(f"File is now active: {uploaded_file.name}")
     
     # Initialize the Gemini model
-    model = genai.GenerativeModel(model_name="models/gemini-2.5-flash-preview-04-17")
+    model = genai.GenerativeModel(model_name="models/gemini-2.5-pro-preview-03-25")
     
     # Define the prompt for data extraction
     prompt = [

@@ -1,826 +1,1711 @@
 {
-    "company_name": "GIG GULF",
-    "plan_name": "Group Health Insurance Plan for [APEX GROUP] Benefits Table",
-    "policy_details": {
-        "category": "Category-01 [UAE/Dubai] Members",
-        "client_code": null,
-        "policy_effective_date": "01/09/2024",
-        "policy_expiry_date": "31/08/2025"
-    },
-    "benefits_table": [
-        {
-            "section_name": "Overall Plan Details",
-            "benefits": [
-                {
-                    "offering": "Yearly Maximum",
-                    "details": null,
-                    "privilege": "AED 5,000,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Network - Inpatient",
-                    "details": null,
-                    "privilege": "A.1",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Network - Outpatient",
-                    "details": null,
-                    "privilege": "A.1",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Area of Cover",
-                    "details": null,
-                    "privilege": "World wide excluding US",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Outside Area of Cover (Emergency cover only)",
-                    "details": "This benefit covers emergency Inpatient, day care or outpatient medical treatment during temporary business or leisure trips (Covered up to AED 250,000)",
-                    "privilege": "World wide",
-                    "exclusion_criteria": "This benefit excludes any treatment which was, or may have been reasonably known about, before travel commenced"
-                },
-                {
-                    "offering": "Within the Network Coinsurance within Country of Residence",
-                    "details": null,
-                    "privilege": "Direct billing within network 100% of Actual Cost",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "(Outside the Network) Coinsurance outside Country of Residence (within area of cover) (Outside the network)",
-                    "details": null,
-                    "privilege": "100% reasonable and customary in country of treatment",
-                    "exclusion_criteria": null
-                }
-            ]
+    "id": "21a2cc7c-ff8e-4b8c-925c-245e965cab2a",
+    "name": "RN 3.8",
+    "code": "plan_rn",
+    "rules": {
+      "data": {
+        "0_10": {
+          "male": {
+            "primary": {
+              "married": 0,
+              "unmarried": 0
+            },
+            "non_primary": {
+              "married": 2690,
+              "unmarried": 2690
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 0,
+              "unmarried": 0
+            },
+            "non_primary": {
+              "married": 2414,
+              "unmarried": 2414
+            }
+          }
         },
-        {
-            "section_name": "Inpatient and Daycare Treatment",
-            "benefits": [
-                {
-                    "offering": "Daily Room and Board",
-                    "details": null,
-                    "privilege": "Standard Private Room",
-                    "exclusion_criteria": "Royal and Presidential Suite"
-                },
-                {
-                    "offering": "Charges of operating theater",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Surgeon fees",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Anesthesiologist fees",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Surgical appliances",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Prescribed medications",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Dressings and consumables",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Diagnostics and laboratory",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Physiotherapy",
-                    "details": "Integral part of the treatment and, It is not the initial reason of admission",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Parent accommodation",
-                    "details": "Treatment is within the area of cover, Main admitted member is a child below 18 years old., Fees are paid for the accommodation of the parent within the same room the child is admitted",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Companion accommodation",
-                    "details": "Treatment is within the area of cover, Companion shall be medically necessary and upon the request of the treating doctor, Fees are paid for the accommodation of the companion within the same room the main patient is admitted",
-                    "privilege": "AED 100 per night",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Inpatient cash benefit",
-                    "details": "Treatment is within the area of cover, Treatment is absolutely free of charge, Admission of the insured is medically necessary (Excluding Qatar Members)",
-                    "privilege": "AED 650 per night",
-                    "exclusion_criteria": "No other benefits will be paid for any admission where insured is getting the cash benefit"
-                }
-            ]
+        "11_17": {
+          "male": {
+            "primary": {
+              "married": 0,
+              "unmarried": 0
+            },
+            "non_primary": {
+              "married": 1912,
+              "unmarried": 1912
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 0,
+              "unmarried": 0
+            },
+            "non_primary": {
+              "married": 2182,
+              "unmarried": 2182
+            }
+          }
         },
-        {
-            "section_name": "Outpatient Treatment",
-            "benefits": [
-                {
-                    "subsection_name": "Consultations and Treatment (not including benefit extensions like Maternity, Dental Optical, Health checks and Psychiatric)",
-                    "benefits": [
-                        {
-                            "offering": "All Consultations Deductible/coinsurance",
-                            "details": null,
-                            "privilege": "20% Max AED 50",
-                            "exclusion_criteria": null
-                        },
-                        {
-                            "offering": "Free follow-up visits within 7 days for the same condition to the same medical practitioner within the applicable network",
-                            "details": null,
-                            "privilege": "Covered",
-                            "exclusion_criteria": null
-                        },
-                        {
-                            "offering": "Consultation (GP and Specialist)",
-                            "details": null,
-                            "privilege": "Covered",
-                            "exclusion_criteria": null
-                        }
-                    ]
-                },
-                {
-                    "offering": "Physiotherapy",
-                    "details": "Upon referral from GP or Specialist",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Alternative and Complimentary Medicine",
-                    "details": "Chiropractic, Osteopathy, Homeopathy, Acupuncture, Chinese Herbal Medicine, Ayurveda treatment Chiropody and Podiatry",
-                    "privilege": "AED 10,000",
-                    "exclusion_criteria": "Cupping, Aromatherapy, Bowen technique, Hypnotherapy, Massage, Meditation, Mindfulness, Reiki, Yoga, and those NOT listed in the inclusion criteria"
-                },
-                {
-                    "offering": "Outpatient procedures",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Speech Therapy",
-                    "details": null,
-                    "privilege": "No benefit",
-                    "exclusion_criteria": "ABA therapy and shadow learning"
-                },
-                {
-                    "offering": "Oculomotor Therapy",
-                    "details": null,
-                    "privilege": "No benefit",
-                    "exclusion_criteria": "Orthoptic training (eye exercises) or vision therapy, Visual perceptual training, Vision restoration therapy, Neuro-visual (optometric) rehabilitation"
-                },
-                {
-                    "offering": "Occupational Therapy",
-                    "details": null,
-                    "privilege": "No benefit",
-                    "exclusion_criteria": "Educational training or services, Driver training is not considered treatment of disease because driving an automobile is not a basic activity of daily living, ABA therapy and shadow learning"
-                },
-                {
-                    "offering": "Diagnostics",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Imaging (X-ray, MRI, CT, PET, Ultrasound)",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Laboratory",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Prescribed drugs/medications",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Prescribed medications limit",
-                    "details": null,
-                    "privilege": "Nil",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Coinsurance/Deductible (Prescribed medications)",
-                    "details": null,
-                    "privilege": "Covered only subject to medical necessity",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Biologics",
-                    "details": null,
-                    "privilege": "Covered only subject to medical necessity",
-                    "exclusion_criteria": null
-                }
-            ]
+        "18_25": {
+          "male": {
+            "primary": {
+              "married": 2135,
+              "unmarried": 2135
+            },
+            "non_primary": {
+              "married": 2450,
+              "unmarried": 2450
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 2257,
+              "unmarried": 2257
+            },
+            "non_primary": {
+              "married": 2918,
+              "unmarried": 2918
+            }
+          }
         },
-        {
-            "section_name": "Maternity Benefit: Pregnancy and Childbirth",
-            "benefits": [
-                {
-                    "offering": "Inpatient",
-                    "details": null,
-                    "privilege": "AED 36,700",
-                    "exclusion_criteria": "Genetic testing for unborn child, Infertility Treatment"
-                },
-                {
-                    "offering": "Outpatient",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Deductible/ Coinsurance on Outpatient Consultations (for Maternity)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Free follow-up visits within 7 days for the same condition to the same medical practitioner within the applicable network (for Maternity)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Diagnostics (for Maternity)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Prescribed medications (for Maternity)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Waiting period (for Maternity)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Pre- and post-natal complications",
-                    "details": "Any unforeseen medical situation that may occur during pregnancy (antenatal) childbirth or after delivery (postnatal) that require additional care or intervention, beyond that which would be required for normal course of pregnancy as it represents direct threat to the wellbeing of mother and/or baby. For a maternity claim to be considered a complicated pregnancy and for C section to eligible to be covered up to policy limit any of the below circumstances to apply: Placenta Praevia, Pre-eclampsia and eclampsia, Fetal distress, Uterine rupture and Umbilical cord prolapse",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Newborn Cover",
-                    "details": "Cost of the newborn treatment is covered up to one month under mother's card as per mother's policy terms and conditions, subject to addition of the new born within 30 days from date of birth",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                }
-            ]
+        "26_30": {
+          "male": {
+            "primary": {
+              "married": 2307,
+              "unmarried": 2307
+            },
+            "non_primary": {
+              "married": 2647,
+              "unmarried": 2647
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 2765,
+              "unmarried": 2765
+            },
+            "non_primary": {
+              "married": 3575,
+              "unmarried": 3575
+            }
+          }
         },
-        {
-            "section_name": "Routine Dental Benefit",
-            "benefits": [
-                {
-                    "offering": "Consultation",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Prescribed Medications",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Extraction",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Composite/Amalgam filling",
-                    "details": null,
-                    "privilege": "AED 3,670",
-                    "exclusion_criteria": "Veneers, Crowns with precious metal alloys, Cosmetic procedures"
-                },
-                {
-                    "offering": "Dental surgery",
-                    "details": null,
-                    "privilege": "AED 7,340",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Root canal treatment",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Scaling and polishing",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Gum disease treatment",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Crowns / Bridgework",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Orthodontic",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Coinsurance on ALL Routine Dental treatment (including consultation, diagnostic and Pharmacy)",
-                    "details": null,
-                    "privilege": "0%",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Coinsurance on Orthodontics",
-                    "details": null,
-                    "privilege": "50% (Orthodontics)",
-                    "exclusion_criteria": null
-                }
-            ]
+        "31_35": {
+          "male": {
+            "primary": {
+              "married": 2748,
+              "unmarried": 2748
+            },
+            "non_primary": {
+              "married": 3153,
+              "unmarried": 3153
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 3270,
+              "unmarried": 3270
+            },
+            "non_primary": {
+              "married": 4228,
+              "unmarried": 4228
+            }
+          }
         },
-        {
-            "section_name": "Optical Benefit",
-            "benefits": [
-                {
-                    "offering": "Optometrist evaluation, Optical Frames and Contact lenses",
-                    "details": "Routine optical services carried out by a qualified and registered ophthalmologist or optometrist; and costs of prescribed spectacles/corrective lenses for refractive errors (Maximum of 1 Frame per year)",
-                    "privilege": "AED 2,750",
-                    "exclusion_criteria": "The provision of tinted/ reactive lenses, sunglasses, non-corrective contact lenses, laser eye surgery or similar procedures"
-                },
-                {
-                    "offering": "Coinsurance (for Optical)",
-                    "details": null,
-                    "privilege": "Nil",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "LASIK",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                }
-            ]
+        "36_40": {
+          "male": {
+            "primary": {
+              "married": 3353,
+              "unmarried": 3353
+            },
+            "non_primary": {
+              "married": 3848,
+              "unmarried": 3848
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 4039,
+              "unmarried": 4039
+            },
+            "non_primary": {
+              "married": 5223,
+              "unmarried": 5223
+            }
+          }
         },
-        {
-            "section_name": "Health Check/Screening",
-            "benefits": [
-                {
-                    "offering": "Screening / Health Check-up (Routine)",
-                    "details": null,
-                    "privilege": "AED 3,670",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Coinsurance (for Health Check/Screening)",
-                    "details": null,
-                    "privilege": "NIL",
-                    "exclusion_criteria": null
-                }
-            ]
+        "41_45": {
+          "male": {
+            "primary": {
+              "married": 3901,
+              "unmarried": 3901
+            },
+            "non_primary": {
+              "married": 4477,
+              "unmarried": 4477
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 5126,
+              "unmarried": 5126
+            },
+            "non_primary": {
+              "married": 6629,
+              "unmarried": 6629
+            }
+          }
         },
-        {
-            "section_name": "Prevention",
-            "benefits": [
-                {
-                    "offering": "Child Preventive Services, Vaccines and Immunizations",
-                    "details": "Recognized and essential vaccinations and immunizations as mandated by the local regulatory authorities from where the Policy is issued",
-                    "privilege": "Covered for new born and children 0-6 years",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Adult Vaccinations and Immunizations",
-                    "details": null,
-                    "privilege": "AED 367",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Influenza Vaccine - covered for DUBAI MEMBERS ONLY",
-                    "details": null,
-                    "privilege": "Once a policy year as per DHA guidelines",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Adult Pneumococcal Conjugate Vaccine - covered for DUBAI MEMBERS ONLY",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Hepatitis B Virus Screening & Treatments - for DUBAI MEMBERS ONLY",
-                    "details": null,
-                    "privilege": "Covered as per DHA guidelines for Hepatitis B support program",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Diabetes Screening every 3 years from age of 30. High risk individuals annually from age 18 for DUBAI MEMBERS ONLY",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                }
-            ]
+        "46_50": {
+          "male": {
+            "primary": {
+              "married": 5044,
+              "unmarried": 5044
+            },
+            "non_primary": {
+              "married": 5789,
+              "unmarried": 5789
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 6370,
+              "unmarried": 6370
+            },
+            "non_primary": {
+              "married": 8237,
+              "unmarried": 8237
+            }
+          }
         },
-        {
-            "section_name": "Cancer Treatment",
-            "benefits": [
-                {
-                    "offering": "Dedcutible/Copayment (Cancer Treatment)",
-                    "details": null,
-                    "privilege": "Nil Deductible & Copayment",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Outpatient Treatment (Cancer)",
-                    "details": "Consultation, Laboratory investigations, Drugs, Radiological investigations, Chemotherapy and its administration and Radiotherapy",
-                    "privilege": "Covered",
-                    "exclusion_criteria": "Genetic therapy, Dietician / Nutritionist"
-                },
-                {
-                    "offering": "Inpatient treatment (Cancer)",
-                    "details": "Charges of accommodation, Charges of operating theatre, Surgeon and anesthesiologist's fee, Drugs, Laboratory investigations, Radiological investigations, Chemotherapy, Reconstructive surgery and Radiotherapy",
-                    "privilege": "Covered",
-                    "exclusion_criteria": "Genetic therapy, Dietician / Nutritionist"
-                },
-                {
-                    "subsection_name": "Cancer support benefits",
-                    "benefits": [
-                        {
-                            "offering": "Stem cells and bone marrow transplants",
-                            "details": "Stem cells and bone marrow transplants covered when, The transplant is medically necessary, The material to be transplanted is the beneficiary's own bone marrow or stem cells, or bone marrow taken from a verified and legitimate source",
-                            "privilege": "Covered",
-                            "exclusion_criteria": "Donor cost for stem cells and bone marrow transplants"
-                        }
-                    ]
-                }
-            ]
+        "51_55": {
+          "male": {
+            "primary": {
+              "married": 6697,
+              "unmarried": 6697
+            },
+            "non_primary": {
+              "married": 7685,
+              "unmarried": 7685
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 8334,
+              "unmarried": 8334
+            },
+            "non_primary": {
+              "married": 10777,
+              "unmarried": 10777
+            }
+          }
         },
-        {
-            "section_name": "Core Benefits",
-            "benefits": [
-                {
-                    "offering": "Pre-existing and Chronic conditions (Inpatient and Outpatient)",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Ambulance",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Deviated Nasal Septum",
-                    "details": "Covered when, Treatment related to a septal deformity, Continuous nasal airway obstruction resulting in nasal breathing difficulty not responding to appropriate medical therapy.",
-                    "privilege": "Covered",
-                    "exclusion_criteria": "Any cosmetic or aesthetic treatment"
-                },
-                {
-                    "offering": "Hormone replacement therapy",
-                    "details": "Implants and patches form covered",
-                    "privilege": "AED 1,850",
-                    "exclusion_criteria": "Non-registered preparations locally"
-                },
-                {
-                    "offering": "Nursing at home",
-                    "details": "Recommended by a specialist following Inpatient or day patient treatment which is covered by this policy, Starts immediately after the beneficiary leaves hospital, or instead of Hospitalization",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Rehabilitation (Inpatient, day-care and Outpatient treatment)",
-                    "details": "Covered and must commence within 14 days of discharge after the acute medical and/or surgical treatment cases, Inpatient rehabilitation up to a maximum of 28 days",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Reconstructive Surgery",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Organ Transplant",
-                    "details": "Covered when, The transplant is medically necessary, Anti-rejection medicines following a transplant, when they are given on an Inpatient basis",
-                    "privilege": "Covered, Donor's medical cost is covered upto AED 183,500",
-                    "exclusion_criteria": "Donor's cost for Organ Retrieval, Acquisition, Transportation, administration and Storage organ acquisition/storage costs"
-                },
-                {
-                    "offering": "Passive War and Terrorism Risk",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Oral and Maxillofacial surgery",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Accidental damage of teeth",
-                    "details": "Treatment for teeth damaged in an accident provided that treatment is requested within 48 hours following the accident",
-                    "privilege": "Covered",
-                    "exclusion_criteria": "Treatment for teeth damaged as a result of consumption or food or drink or any foreign bodies contained in such food or drink"
-                },
-                {
-                    "subsection_name": "International Emergency Medical Assistance (IEMA)",
-                    "benefits": [
-                        {
-                            "offering": "Emergency Medical Evacuation",
-                            "details": null,
-                            "privilege": "Covered",
-                            "exclusion_criteria": "IEMA excludes injuries/sickness as a result of hazardours/sports activities; but Treatment for such conditions is covered"
-                        },
-                        {
-                            "offering": "Repatriation of mortal remains",
-                            "details": null,
-                            "privilege": "Covered",
-                            "exclusion_criteria": null
-                        }
-                    ]
-                }
-            ]
+        "56_59": {
+          "male": {
+            "primary": {
+              "married": 9048,
+              "unmarried": 9048
+            },
+            "non_primary": {
+              "married": 10382,
+              "unmarried": 10382
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 10156,
+              "unmarried": 10156
+            },
+            "non_primary": {
+              "married": 13133,
+              "unmarried": 13133
+            }
+          }
         },
-        {
-            "section_name": "Other Benefits",
-            "benefits": [
-                {
-                    "offering": "Allergy testing",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Vitamins registered as medications",
-                    "details": "(if prescribed and medically necessary for a severe deficiency)",
-                    "privilege": "Covered up to AED 550",
-                    "exclusion_criteria": "Registered as supplements"
-                },
-                {
-                    "offering": "Developmental disorder",
-                    "details": "(All expenses related to patient's treatment including behaviour training & behaviour management, speech therapy, occupational therapy, physical therapy and Medicine is covered)",
-                    "privilege": "AED 18,350",
-                    "exclusion_criteria": null
-                },
-                {
-                    "subsection_name": "Psychiatric Treatment",
-                    "details": "Referral required",
-                    "benefits": [
-                        {
-                            "offering": "Inpatient, day-care and Outpatient Treatment (for Psychiatric Treatment)",
-                            "details": null,
-                            "privilege": "In patient: Covered, Out Patient: AED 9,200",
-                            "exclusion_criteria": null
-                        }
-                    ]
-                },
-                {
-                    "offering": "External Prosthetic Appliance/Prescribed Medical Aids",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Work Related Injuries",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Road Traffic Accidents",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Congenital conditions",
-                    "details": null,
-                    "privilege": "AED 367,000",
-                    "exclusion_criteria": "Non-life Threatening, Hereditary Conditions, Genetic Therapy"
-                },
-                {
-                    "offering": "Circumcision",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Ophthalmology",
-                    "details": "Eye consultation and any treatment for medical conditions related to it",
-                    "privilege": "Covered",
-                    "exclusion_criteria": "This excludes any routine Optical and refraction errors"
-                },
-                {
-                    "offering": "Renal Failure and Renal Dialysis",
-                    "details": null,
-                    "privilege": "In patient: Covered, Out Patient: AED 367,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Obstructive Sleep Apnoea",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Palliative Treatment",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Long Term care",
-                    "details": null,
-                    "privilege": "AED 183,000 lifetime limit",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "HIV and AIDS related conditions",
-                    "details": null,
-                    "privilege": "AED 91,750",
-                    "exclusion_criteria": "(Cover only available after three years of continuous membership)"
-                }
-            ]
+        "60_64": {
+          "male": {
+            "primary": {
+              "married": 11089,
+              "unmarried": 11089
+            },
+            "non_primary": {
+              "married": 12726,
+              "unmarried": 12726
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 12030,
+              "unmarried": 12030
+            },
+            "non_primary": {
+              "married": 15556,
+              "unmarried": 15556
+            }
+          }
         },
-        {
-            "section_name": "Natural Disasters",
-            "benefits": [
-                {
-                    "offering": "Overall Section Coverage",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                }
-            ]
-        },
-        {
-            "section_name": "Epidemics",
-            "benefits": [
-                {
-                    "offering": "Overall Section Coverage",
-                    "details": null,
-                    "privilege": "No Benefit",
-                    "exclusion_criteria": null
-                }
-            ]
-        },
-        {
-            "section_name": "Miscellaneous Benefits",
-            "benefits": [
-                {
-                    "offering": "Hearing, vision aids, vision correction by surgeries and laser in case of medical emergencies only",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Diagnostic and treatment services for dental and gum treatments in case of medical emergencies only",
-                    "details": null,
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                }
-            ]
-        },
-        {
-            "section_name": "Health On Track Benefits",
-            "benefits": [
-                {
-                    "offering": "Teleconsultation",
-                    "details": "24/7 virtual healthcare consultation with licensed GPs through voice and video calls, teleprescription, medications delivery, health guidance from a nutritionist and chronic conditions monitoring and coaching. Other features include concierge booking at the nearest provider(in UAE), no co-pay on teleconsultation, multilingual service.",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "ProAct",
-                    "details": "Dedicated case management for rare and complex conditions during patient treatment journey",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Shield for Diabetes",
-                    "details": "End-to-end care for pre-diabetics and Type 1 & 2 diabetics from GP and nutritionist teleconsultation, medications refill and delivery, as well as telemonitoring and coaching from a dedicated team through teleconsultation. Strips and lancets will be covered for Privilege only.",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Cancer Safe",
-                    "details": "Patient Support Program for patients with Breast, Cervical and Colon cancers. It provides support services and assistance to people who require long term healthcare treatments (Dubai members only)",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Hepatitis Safe",
-                    "details": "Patient Support Program for patients with Hepatitis C. It provides support services and assistance to people who require long term healthcare treatments (Dubai members only)",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "MindSet",
-                    "details": "Holistic program aiming at raising awareness about mental health by reducing the stigma, preventing mental distress by fostering resilience and empowering employees towards a state of psychological safety at work and in their lives.",
-                    "privilege": "Covered",
-                    "exclusion_criteria": null
-                }
-            ]
-        },
-        {
-            "section_name": "Complimentary Travel Inconvenience Cover",
-            "details": "Travel policy: 13/ZT/2274640/0",
-            "benefits": [
-                {
-                    "offering": "Personal Liability",
-                    "details": null,
-                    "privilege": "USD 1,000,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Legal Assistance in Case of Redress",
-                    "details": null,
-                    "privilege": "USD 4,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Advance of Bail Bond (refundable)",
-                    "details": null,
-                    "privilege": "USD 10,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Cancellation or Curtailment",
-                    "details": null,
-                    "privilege": "USD 5,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Delayed Departure",
-                    "details": null,
-                    "privilege": "USD 500",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Delayed Baggage",
-                    "details": null,
-                    "privilege": "USD 250",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Personal Baggage and Personal Money",
-                    "details": null,
-                    "privilege": "USD 5,000",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Loss of Passport",
-                    "details": null,
-                    "privilege": "USD 500",
-                    "exclusion_criteria": null
-                },
-                {
-                    "offering": "Personal Accident",
-                    "details": null,
-                    "privilege": "USD 27,500",
-                    "exclusion_criteria": null
-                }
-            ]
+        "65_99": {
+          "male": {
+            "primary": {
+              "married": 19960,
+              "unmarried": 19960
+            },
+            "non_primary": {
+              "married": 22907,
+              "unmarried": 22907
+            }
+          },
+          "female": {
+            "primary": {
+              "married": 21654,
+              "unmarried": 21654
+            },
+            "non_primary": {
+              "married": 28001,
+              "unmarried": 28001
+            }
+          }
         }
-    ],
-    "notes": [
-        "Please refer to Your member guide for all treatments that require prior-approval. This Benefits Table applicable to Your plan shows the maximum benefits we will pay for each member. Please note that benefit values are reduced each time a member claims (Invoice value less any deductible, excess, Coinsurance or ineligible treatment) GIG have actually paid. In applying deductibles and coinsurance (the percentage of eligible benefit payable by the Member) GIG will subtract the deductible first and then apply the Coinsurance to the balance of eligible benefit remaining. If the member incurs costs in excess of the limits, the member will have to pay the difference.",
-        "Excess of USD $30 applicable for each and every claim. Children enjoy cover up to 50% of the stated limit in all chapters. This benefit is offered under GIG Gulf general insurance product and the above summary is for reference only. Please refer to full travel policy wording for product terms & conditions and exclusions."
-    ]
-}
+      },
+      "invoice_setting": {
+        "code": "basmah",
+        "name": "HCV & BASMAH CHARGES",
+        "amount": 37
+      },
+      "optional_benefits": [
+        {
+          "code": "annual_medical",
+          "name": "Annual Medical",
+          "position": 1,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "AED 150,000",
+                "value": 94.69
+              },
+              {
+                "label": "AED 250,000",
+                "value": 96.62
+              },
+              {
+                "label": "AED 300,000",
+                "value": 98.36
+              },
+              {
+                "label": "AED 500,000",
+                "value": 100
+              },
+              {
+                "label": "AED 1,000,000",
+                "value": 101.45
+              },
+              {
+                "label": "AED 1,500,000",
+                "value": 106.38
+              },
+              {
+                "label": "AED 2,000,000",
+                "value": 108.31
+              },
+              {
+                "label": "AED 2,500,000",
+                "value": 110.24
+              }
+            ]
+          }
+        },
+        {
+          "code": "territorial_cover",
+          "name": "Territorial cover",
+          "position": 4,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "UAE only",
+                "value": "100"
+              },
+              {
+                "label": "UAE and SEA at R&C of UAE",
+                "value": "100.0"
+              },
+              {
+                "label": "UAE, GCC and SEA  at R&C of UAE",
+                "value": "100.00"
+              },
+              {
+                "label": "WW excl. US, Canada & Europe at R&C of UAE",
+                "value": "100.000"
+              },
+              {
+                "label": "WW excl. US & Canada at R&C of UAE",
+                "value": "100.0000"
+              },
+              {
+                "label": "Worldwide at R&C of UAE",
+                "value": "100.00000"
+              },
+              {
+                "label": "UAE and SEA at Actuals",
+                "value": 104
+              },
+              {
+                "label": "UAE, GCC and SEA at Actuals",
+                "value": 105
+              },
+              {
+                "label": "WW excl. US & Canada at Actuals",
+                "value": 120
+              },
+              {
+                "label": "Worldwide at Actuals",
+                "value": 135
+              }
+            ],
+            "defaultOption": "100"
+          }
+        },
+        {
+          "code": "deductible_for_consultation",
+          "name": "Deductible for Consultation",
+          "position": 3,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "key": 1,
+                "label": "Nil",
+                "value": 103.9
+              },
+              {
+                "key": 2,
+                "label": "AED 20",
+                "value": 102.5
+              },
+              {
+                "key": 3,
+                "label": "AED 25",
+                "value": 101.5
+              },
+              {
+                "key": 4,
+                "label": "AED 30",
+                "value": 101
+              },
+              {
+                "key": 5,
+                "label": "AED 50",
+                "value": 100
+              },
+              {
+                "key": 6,
+                "label": "AED 75",
+                "value": 98.2
+              },
+              {
+                "key": 7,
+                "label": "AED 100",
+                "value": 96.4
+              },
+              {
+                "key": 8,
+                "label": "20%",
+                "value": 96.2
+              },
+              {
+                "key": 9,
+                "label": "20% up to AED 10",
+                "value": 104.3
+              },
+              {
+                "key": 10,
+                "label": "20% up to AED 20",
+                "value": 101.99
+              },
+              {
+                "key": 11,
+                "label": "20% up to AED 25",
+                "value": 100.99
+              },
+              {
+                "key": 12,
+                "label": "20% up to AED 30",
+                "value": 100.5
+              },
+              {
+                "key": 13,
+                "label": "20% up to AED 50",
+                "value": " 100.0"
+              },
+              {
+                "key": 14,
+                "label": "20% up to AED 75",
+                "value": 98.4
+              },
+              {
+                "key": 15,
+                "label": "20% up to AED 100",
+                "value": "96.2"
+              },
+              {
+                "key": 16,
+                "label": "10%",
+                "value": 97.3
+              },
+              {
+                "key": 17,
+                "label": "10% up to AED 20",
+                "value": 102.1
+              },
+              {
+                "key": 18,
+                "label": "10% up to AED 25",
+                "value": 101.3
+              },
+              {
+                "key": 19,
+                "label": "10% up to AED 30",
+                "value": 100.9
+              },
+              {
+                "key": 20,
+                "label": "10% up to AED 50",
+                "value": 99.9
+              },
+              {
+                "key": 21,
+                "label": "10% up to AED 75",
+                "value": 98.7
+              },
+              {
+                "key": 22,
+                "label": "10% up to AED 100",
+                "value": "97.3"
+              }
+            ],
+            "defaultOption": 100
+          }
+        },
+        {
+          "code": "ip_room_type",
+          "name": "IP Room Type",
+          "position": 2,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Private",
+                "value": 100
+              },
+              {
+                "label": "Semi-Private",
+                "value": 95
+              },
+              {
+                "label": "Shared",
+                "value": 92.5
+              }
+            ],
+            "defaultOption": 100,
+            "default_value_options": {
+              "label": "Private",
+              "value": 100
+            }
+          }
+        },
+        {
+          "code": "maternity",
+          "name": "Maternity",
+          "position": 10,
+          "benefit_type": "percent_of_base_rate_with_adjustment",
+          "limit_options": {
+            "data": [
+              {
+                "key": 1,
+                "label": "0% copayment. Routine Benefits",
+                "value": 2761,
+                "adjustment_value": 100
+              },
+              {
+                "key": 2,
+                "label": "10% copayment. Routine Benefits",
+                "value": 2761,
+                "adjustment_value": 90
+              },
+              {
+                "key": 3,
+                "label": "20% copayment. Routine Benefits",
+                "value": 2761,
+                "adjustment_value": 80
+              },
+              {
+                "key": 4,
+                "label": "30% copayment. Routine Benefits",
+                "value": 2761,
+                "adjustment_value": 70
+              }
+            ],
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "7500",
+                "value": 73
+              },
+              {
+                "label": "10000",
+                "value": 76
+              },
+              {
+                "label": "15000",
+                "value": 100
+              },
+              {
+                "label": "20000",
+                "value": 108
+              },
+              {
+                "label": "25000",
+                "value": 114
+              },
+              {
+                "label": "30000",
+                "value": 127
+              },
+              {
+                "label": "40000",
+                "value": 129
+              },
+              {
+                "label": "50000",
+                "value": 133
+              },
+              {
+                "label": "Up to AML",
+                "value": 136
+              }
+            ],
+            "defaultDataOption": 2761,
+            "default_value_data": {
+              "label": "0% copayment. Routine Benefits",
+              "value": 2761
+            }
+          }
+        },
+        {
+          "code": "dental",
+          "name": "Dental",
+          "position": 11,
+          "benefit_type": "percent_of_base_rate_with_adjustment",
+          "limit_options": {
+            "data": [
+              {
+                "key": 4,
+                "label": "30% copayment. Routine Benefits",
+                "value": 225,
+                "adjustment_value": 87.5
+              },
+              {
+                "key": 3,
+                "label": "20% copayment. Routine Benefits",
+                "value": 225,
+                "adjustment_value": 100
+              },
+              {
+                "key": 2,
+                "label": "10% copayment. Routine Benefits",
+                "value": 225,
+                "adjustment_value": 112.5
+              },
+              {
+                "key": 1,
+                "label": "0% copayment. Routine Benefits",
+                "value": 225,
+                "adjustment_value": 125
+              }
+            ],
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "1000",
+                "value": 71.65
+              },
+              {
+                "label": "2000",
+                "value": 78.74
+              },
+              {
+                "label": "2500",
+                "value": 100
+              },
+              {
+                "label": "3000",
+                "value": 107.09
+              },
+              {
+                "label": "3500",
+                "value": 114.96
+              },
+              {
+                "label": "5000",
+                "value": 136.22
+              },
+              {
+                "label": "7500",
+                "value": 150.39
+              },
+              {
+                "label": "10000",
+                "value": 214.96
+              }
+            ]
+          }
+        },
+        {
+          "code": "optical",
+          "name": "Optical",
+          "position": 12,
+          "benefit_type": "percent_of_base_rate_with_adjustment",
+          "limit_options": {
+            "data": [
+              {
+                "key": 4,
+                "label": "30% copayment. Routine Benefits",
+                "value": 129,
+                "adjustment_value": 87.5
+              },
+              {
+                "key": 3,
+                "label": "20% copayment. Routine Benefits",
+                "value": 129,
+                "adjustment_value": 100
+              },
+              {
+                "key": 2,
+                "label": "10% copayment. Routine Benefits",
+                "value": 129,
+                "adjustment_value": 112.5
+              },
+              {
+                "key": 1,
+                "label": "0% copayment. Routine Benefits",
+                "value": 129,
+                "adjustment_value": 125
+              }
+            ],
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "300",
+                "value": 43
+              },
+              {
+                "label": "500",
+                "value": 64
+              },
+              {
+                "label": "750",
+                "value": 86
+              },
+              {
+                "label": "1000",
+                "value": 100
+              },
+              {
+                "label": "1500",
+                "value": 129
+              },
+              {
+                "label": "2000",
+                "value": 143
+              },
+              {
+                "label": "2500",
+                "value": 157
+              }
+            ]
+          }
+        },
+        {
+          "code": "diagnostic_investigation_op_copay",
+          "name": "Diagnostic Investigation OP Copay",
+          "position": 5,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "0%",
+                "value": 100
+              },
+              {
+                "label": "5%",
+                "value": 98
+              },
+              {
+                "label": "10%",
+                "value": 96
+              },
+              {
+                "label": "15%",
+                "value": 94
+              },
+              {
+                "label": "20%",
+                "value": 92
+              },
+              {
+                "label": "AED 10",
+                "value": 99.7
+              },
+              {
+                "label": "AED 20",
+                "value": 99.39
+              },
+              {
+                "label": "AED 25",
+                "value": 99.24
+              },
+              {
+                "label": "AED 30",
+                "value": 99.09
+              },
+              {
+                "label": "AED 50",
+                "value": 98.48
+              },
+              {
+                "label": "AED 75",
+                "value": 97.72
+              },
+              {
+                "label": "AED 100",
+                "value": 96.96
+              },
+              {
+                "label": "5% up to AED 50",
+                "value": 99.46
+              },
+              {
+                "label": "10% up to AED 50",
+                "value": 98.88
+              },
+              {
+                "label": "15% up to AED 50",
+                "value": 98.57
+              },
+              {
+                "label": "20% up to AED 50",
+                "value": 98.53
+              }
+            ]
+          }
+        },
+        {
+          "code": "copayment_on_all_ip",
+          "name": "Copayment on all IP and Day-Case Benefits subject to cap of 500 AED per encounter",
+          "position": 2,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "0%",
+                "value": 100
+              },
+              {
+                "label": "5%",
+                "value": 99
+              },
+              {
+                "label": "10%",
+                "value": 98
+              },
+              {
+                "label": "15%",
+                "value": 97
+              },
+              {
+                "label": "20%",
+                "value": 96
+              },
+              {
+                "label": "30%",
+                "value": 94
+              }
+            ]
+          }
+        },
+        {
+          "code": "Pharmacy_Copay",
+          "name": "Pharmacy Copay",
+          "position": 6,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "0 %",
+                "value": 100
+              },
+              {
+                "label": "5 %",
+                "value": 99
+              },
+              {
+                "label": "10 %",
+                "value": 98
+              },
+              {
+                "label": "15 %",
+                "value": 97
+              },
+              {
+                "label": "20 %",
+                "value": 96
+              },
+              {
+                "label": "25 %",
+                "value": 95
+              },
+              {
+                "label": "30 %",
+                "value": 94
+              }
+            ],
+            "defaultOption": 100,
+            "defaultDataOption": 100
+          }
+        },
+        {
+          "code": "Pharmacy_limit",
+          "name": "Pharmacy Limit",
+          "position": 7,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Upto AML",
+                "value": 100
+              },
+              {
+                "label": "10% of AML",
+                "value": 95
+              },
+              {
+                "label": "20% of AML",
+                "value": 96
+              },
+              {
+                "label": "30% of AML",
+                "value": 97
+              },
+              {
+                "label": "40% of AML",
+                "value": 98
+              },
+              {
+                "label": "50% of AML",
+                "value": 99
+              }
+            ],
+            "defaultOption": 100,
+            "defaultDataOption": 100
+          }
+        },
+        {
+          "code": "Medication_Type",
+          "name": "Medication Type",
+          "position": 8,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Generic",
+                "value": 100
+              },
+              {
+                "label": "Branded",
+                "value": "100.00"
+              }
+            ]
+          }
+        },
+        {
+          "code": "pec",
+          "name": "PEC",
+          "position": 9,
+          "benefit_type": "percent_of_premium",
+          "limit_options": {
+            "options": [
+              {
+                "label": "150000",
+                "value": 98.9690721649485
+              },
+              {
+                "label": "250000",
+                "value": 100
+              },
+              {
+                "label": "Upto AML",
+                "value": "100.00"
+              }
+            ]
+          }
+        },
+        {
+          "code": "Repatriation_of_Mortal_Remains_to_the_Country_of_Domicile",
+          "name": "Repatriation of Mortal Remains to the Country of Domicile",
+          "position": 13,
+          "benefit_type": "fixed",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": -17
+              },
+              {
+                "label": "5,000",
+                "value": -9
+              },
+              {
+                "label": "7,500",
+                "value": -4
+              },
+              {
+                "label": "10,000",
+                "value": 0
+              },
+              {
+                "label": "20,000",
+                "value": 17
+              },
+              {
+                "label": "25,000",
+                "value": 26
+              },
+              {
+                "label": "30,000",
+                "value": 34
+              }
+            ]
+          }
+        },
+        {
+          "code": "Nursing_at_home_by_a_registered_nurse",
+          "name": "Nursing at home by a registered nurse (following an immediate Inpatient treatment)",
+          "position": 14,
+          "benefit_type": "fixed",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": -6
+              },
+              {
+                "label": "1,000",
+                "value": -1
+              },
+              {
+                "label": "1,500",
+                "value": 0
+              },
+              {
+                "label": "2,000",
+                "value": 1
+              },
+              {
+                "label": "2,500",
+                "value": 3
+              },
+              {
+                "label": "3,000",
+                "value": 4
+              },
+              {
+                "label": "5,000",
+                "value": 6
+              },
+              {
+                "label": "7,500",
+                "value": 9
+              },
+              {
+                "label": "10,000",
+                "value": 11
+              },
+              {
+                "label": "15,000",
+                "value": 15
+              },
+              {
+                "label": "20,000",
+                "value": 19
+              },
+              {
+                "label": "24,000",
+                "value": 21
+              }
+            ]
+          }
+        },
+        {
+          "code": "OP_Psychiatric_Benefits",
+          "name": "OP Psychiatric Benefits",
+          "position": 15,
+          "benefit_type": "fixed_option_benefit",
+          "limit_options": {
+            "data": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "1,000",
+                "value": 1
+              },
+              {
+                "label": "1,500",
+                "value": 2
+              },
+              {
+                "label": "2,000",
+                "value": 3
+              },
+              {
+                "label": "2,500",
+                "value": 4
+              },
+              {
+                "label": "3,000",
+                "value": 5
+              },
+              {
+                "label": "3,500",
+                "value": 6
+              },
+              {
+                "label": "5,000",
+                "value": 7
+              },
+              {
+                "label": "7,500",
+                "value": 8
+              },
+              {
+                "label": "10,000",
+                "value": 9
+              },
+              {
+                "label": "15,000",
+                "value": 10
+              }
+            ],
+            "options": [
+              {
+                "label": "0% of Co-Pay",
+                "value": "0% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -95
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -65
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -50
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -35
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -20
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -5
+                  },
+                  {
+                    "label": "3,500",
+                    "value": 10
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 55
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 130
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 205
+                  },
+                  {
+                    "label": "15,000",
+                    "value": 355
+                  }
+                ]
+              },
+              {
+                "label": "10% of Co-Pay",
+                "value": "10% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -95
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -68
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -54
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -41
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -27
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -14
+                  },
+                  {
+                    "label": "3,500",
+                    "value": 0
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 40
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 108
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 175
+                  },
+                  {
+                    "label": "15,000",
+                    "value": 310
+                  }
+                ]
+              },
+              {
+                "label": "20% of Co-Pay",
+                "value": "20% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -95
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -71
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -59
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -47
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -35
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -23
+                  },
+                  {
+                    "label": "3,500",
+                    "value": -11
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 25
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 85
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 145
+                  },
+                  {
+                    "label": "15,000",
+                    "value": 265
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "code": "Alternative Medicine",
+          "name": "Alternative Medicine",
+          "position": 16,
+          "benefit_type": "fixed_option_benefit",
+          "limit_options": {
+            "data": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "1,000",
+                "value": 1
+              },
+              {
+                "label": "1,500",
+                "value": 2
+              },
+              {
+                "label": "1,600",
+                "value": 3
+              },
+              {
+                "label": "2,000",
+                "value": 4
+              },
+              {
+                "label": "2,500",
+                "value": 5
+              },
+              {
+                "label": "3,000",
+                "value": 6
+              },
+              {
+                "label": "4,000",
+                "value": 7
+              },
+              {
+                "label": "5,000",
+                "value": 8
+              },
+              {
+                "label": "7,500",
+                "value": 9
+              },
+              {
+                "label": "10,000",
+                "value": 10
+              }
+            ],
+            "options": [
+              {
+                "label": "0% of Co-Pay",
+                "value": "0% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -92
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -59
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -51
+                  },
+                  {
+                    "label": "1,600",
+                    "value": -50
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -46
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -34
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -22
+                  },
+                  {
+                    "label": "4,000",
+                    "value": 1
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 25
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 83
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 142
+                  }
+                ]
+              },
+              {
+                "label": "10% of Co-Pay",
+                "value": "10% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -92
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -62
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -56
+                  },
+                  {
+                    "label": "1,600",
+                    "value": -55
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -50
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -40
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -29
+                  },
+                  {
+                    "label": "4,000",
+                    "value": -7
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 14
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 67
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 121
+                  }
+                ]
+              },
+              {
+                "label": "20% of Co-Pay",
+                "value": "20% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -92
+                  },
+                  {
+                    "label": "1,000",
+                    "value": -66
+                  },
+                  {
+                    "label": "1,500",
+                    "value": -60
+                  },
+                  {
+                    "label": "1,600",
+                    "value": -59
+                  },
+                  {
+                    "label": "2,000",
+                    "value": -55
+                  },
+                  {
+                    "label": "2,500",
+                    "value": -46
+                  },
+                  {
+                    "label": "3,000",
+                    "value": -36
+                  },
+                  {
+                    "label": "4,000",
+                    "value": -18
+                  },
+                  {
+                    "label": "5,000",
+                    "value": 0
+                  },
+                  {
+                    "label": "7,500",
+                    "value": 46
+                  },
+                  {
+                    "label": "10,000",
+                    "value": 92
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "code": "Routine_Health_Check_up",
+          "name": "Routine Health Check-up",
+          "position": 17,
+          "benefit_type": "fixed",
+          "limit_options": {
+            "options": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "1000",
+                "value": 161
+              },
+              {
+                "label": "1500",
+                "value": 201
+              },
+              {
+                "label": "2000",
+                "value": 250
+              },
+              {
+                "label": "2500",
+                "value": 314
+              },
+              {
+                "label": "3000",
+                "value": 377
+              }
+            ]
+          }
+        },
+        {
+          "code": "Physiotherapy",
+          "name": "Physiotherapy",
+          "position": 18,
+          "benefit_type": "fixed_option_benefit",
+          "limit_options": {
+            "data": [
+              {
+                "label": "Not Covered",
+                "value": 0
+              },
+              {
+                "label": "6 Sessions",
+                "value": 1
+              },
+              {
+                "label": "9 Sessions",
+                "value": 2
+              },
+              {
+                "label": "12 Sessions",
+                "value": 3
+              },
+              {
+                "label": "15 Sessions",
+                "value": 4
+              },
+              {
+                "label": "18 Sessions",
+                "value": 5
+              },
+              {
+                "label": "20 Sessions",
+                "value": 6
+              },
+              {
+                "label": "24 Sessions",
+                "value": 7
+              },
+              {
+                "label": "30 Sessions",
+                "value": 8
+              },
+              {
+                "label": "Up to AML",
+                "value": 9
+              }
+            ],
+            "options": [
+              {
+                "label": "0% of Co-Pay",
+                "value": "0% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -26.1
+                  },
+                  {
+                    "label": "6 Sessions",
+                    "value": 2.9
+                  },
+                  {
+                    "label": "9 Sessions",
+                    "value": 26.9
+                  },
+                  {
+                    "label": "12 Sessions",
+                    "value": 79.9
+                  },
+                  {
+                    "label": "15 Sessions",
+                    "value": 132.9
+                  },
+                  {
+                    "label": "18 Sessions",
+                    "value": 163.9
+                  },
+                  {
+                    "label": "20 Sessions",
+                    "value": 185.9
+                  },
+                  {
+                    "label": "24 Sessions",
+                    "value": 228.9
+                  },
+                  {
+                    "label": "30 Sessions",
+                    "value": 292.9
+                  },
+                  {
+                    "label": "Upto AML",
+                    "value": 354.9
+                  }
+                ]
+              },
+              {
+                "label": "10% of Co-Pay",
+                "value": "10% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -26.1
+                  },
+                  {
+                    "label": "6 Sessions",
+                    "value": 0
+                  },
+                  {
+                    "label": "9 Sessions",
+                    "value": 21.6
+                  },
+                  {
+                    "label": "12 Sessions",
+                    "value": 69.3
+                  },
+                  {
+                    "label": "15 Sessions",
+                    "value": 117
+                  },
+                  {
+                    "label": "18 Sessions",
+                    "value": 144.9
+                  },
+                  {
+                    "label": "20 Sessions",
+                    "value": 164.7
+                  },
+                  {
+                    "label": "24 Sessions",
+                    "value": 203.4
+                  },
+                  {
+                    "label": "30 Sessions",
+                    "value": 261
+                  },
+                  {
+                    "label": "Upto AML",
+                    "value": 316.8
+                  }
+                ]
+              },
+              {
+                "label": "20% of Co-Pay",
+                "value": "20% of Co-Pay",
+                "options": [
+                  {
+                    "label": "Not Covered",
+                    "value": -26.1
+                  },
+                  {
+                    "label": "6 Sessions",
+                    "value": -2.9
+                  },
+                  {
+                    "label": "9 Sessions",
+                    "value": 16.3
+                  },
+                  {
+                    "label": "12 Sessions",
+                    "value": 58.7
+                  },
+                  {
+                    "label": "15 Sessions",
+                    "value": 101.1
+                  },
+                  {
+                    "label": "18 Sessions",
+                    "value": 125.9
+                  },
+                  {
+                    "label": "20 Sessions",
+                    "value": 143.5
+                  },
+                  {
+                    "label": "24 Sessions",
+                    "value": 177.9
+                  },
+                  {
+                    "label": "30 Sessions",
+                    "value": 229.1
+                  },
+                  {
+                    "label": "Upto AML",
+                    "value": 278.7
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "custom_fields": {
+      "version": "3.8",
+      "display_name": "NAS RN",
+      "visa_residency": "Dubai"
+    },
+    "created_at": "2023-10-05T19:27:35.173Z",
+    "deleted_at": null,
+    "updated_at": "2024-11-25T07:23:43.620Z",
+    "uuid": "04d9336e-d274-4ec1-bc0b-73946d508629",
+    "user_id": null,
+    "org_id": null,
+    "status": "published",
+    "product_id": "5f42ce1f-e01d-4ee6-99fc-8eea5cb1b36b"
+  }

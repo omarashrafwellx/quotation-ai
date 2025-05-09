@@ -1,0 +1,55 @@
+{
+    "tpa": "NAS",
+    "category_name": "PLAN 3",
+    "region": "Dubai",
+    "plan_name": "GROUP MEDICAL TAKAFUL PLAN - PLAN 3",
+    "plan_access_details": "Restricted Network",
+    "annual_medical_limit": "AED250K",
+    "inpatient_room_type": "Private Room",
+    "coinsurance": {
+        "percentage": "",
+        "details": ""
+    },
+    "consultation_deductible": "20% up to max AED 50",
+    "area_of_coverage": "Basic: UAE, Arab countries, ISC and South East Asia (Elective & Emergency); Extended: Worldwide (Emergency)",
+    "diagnostics_op_copay": "Fully Covered",
+    "pharmacy_copay": "Fully Covered",
+    "pharmacy_limit": "Equal to AML",
+    "medication_type": "",
+    "pec_limit": {
+        "limit": "Equal to AML",
+        "details": ""
+    },
+    "optional_benefits": {
+        "maternity": {
+            "limit": "AED10K Normal Delivery, AED10K for Caesarian & Abortion",
+            "copay": "Inpatient 0%, Outpatient 10%",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "dental": {
+            "limit": "Not Covered",
+            "copay": "NA",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "optical": {
+            "limit": "Not Covered",
+            "copay": "NA",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        }
+    },
+    "impact_to_base_rate": {
+        "aml": "",
+        "ip_room_type": "",
+        "coinsurance": "",
+        "consultation_deductible": "",
+        "area_of_coverage": "",
+        "diagnostics_op_copay": "",
+        "pharmacy_copay": "",
+        "pharmacy_limit": "",
+        "medication_type": "",
+        "pec_limit": ""
+    }
+}

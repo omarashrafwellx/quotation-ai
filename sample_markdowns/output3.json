@@ -1,0 +1,55 @@
+{
+    "tpa": null,
+    "category_name": null,
+    "region": null,
+    "plan_name": "Usselect Bronze DNE without Dental",
+    "plan_access_details": "(Allowing direct billing at designated provider. Please refer to www.damanhealth.ae for Network provider details)",
+    "annual_medical_limit": "AED 250,000 Per Person Per Policy Year",
+    "inpatient_room_type": "Shared Room",
+    "coinsurance": {
+        "percentage": null,
+        "details": null
+    },
+    "consultation_deductible": "AED 50 (Within Abu Dhabi Emirate)",
+    "area_of_coverage": "UAE. Extended to Southeast Asia, India Subcontinent and Arab Country* for inpatient treatment only.",
+    "diagnostics_op_copay": "0%",
+    "pharmacy_copay": "10%",
+    "pharmacy_limit": "AED 25,500 Per Person Per Policy Year",
+    "medication_type": null,
+    "pec_limit": {
+        "limit": "AED 250,000",
+        "details": "For members without continuity of coverage (COC) in UAE"
+    },
+    "optional_benefits": {
+        "maternity": {
+            "limit": "AED 15,000",
+            "copay": "10%",
+            "number_of_lives": 0,
+            "additional_premium": null
+        },
+        "dental": {
+            "limit": "Not Covered",
+            "copay": null,
+            "number_of_lives": 0,
+            "additional_premium": null
+        },
+        "optical": {
+            "limit": null,
+            "copay": null,
+            "number_of_lives": 0,
+            "additional_premium": null
+        }
+    },
+    "impact_to_base_rate": {
+        "aml": null,
+        "ip_room_type": null,
+        "coinsurance": null,
+        "consultation_deductible": null,
+        "area_of_coverage": null,
+        "diagnostics_op_copay": null,
+        "pharmacy_copay": null,
+        "pharmacy_limit": null,
+        "medication_type": null,
+        "pec_limit": null
+    }
+}

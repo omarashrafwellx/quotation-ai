@@ -1,0 +1,23 @@
+
+{
+    "annual_medical": "AED 250,000" ,
+    "territorial_cover": "World wide excluding US" ,
+    "deductible_for_consultation": "20% Max AED 50" ,
+    "ip_room_type": "Standard Private Room" ,
+    "maternity": "AED 36,700 (Inpatient), Covered (Outpatient)" ,
+    "dental": "AED 3,670 (Routine Dental), AED 7,340 (Crowns/Bridgework)" ,
+    "optical": "AED 2,750" ,
+    "diagnostic_investigation_op_copay": "NIL" ,
+    "copayment_on_all_ip": "",
+    "Pharmacy_Copay": "Nil" ,
+    "Pharmacy_limit": "Covered" ,
+    "Medication_Type": "Prescribed medications" ,
+    "pec": "Covered" ,
+    "Repatriation_of_Mortal_Remains_to_the_Country_of_Domicile": "Covered" ,
+    "Nursing_at_home_by_a_registered_nurse": "Covered" ,
+    "OP_Psychiatric_Benefits": "In patient: Covered Out Patient: AED 9,200" ,
+    "Alternative Medicine": "AED 10,000" ,
+    "Routine_Health_Check_up": "AED 3,670" ,
+    "Physiotherapy": "Covered"
+}    
+

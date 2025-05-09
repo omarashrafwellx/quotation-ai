@@ -1,0 +1,31 @@
+{
+    "annual_medical": "AED 250,000" ,
+    "territorial_cover": "World wide excluding US" ,
+    "deductible_for_consultation": "20% Max AED 50" ,
+    "ip_room_type": "Standard Private Room" ,
+    "maternity": "AED 36,700 (Inpatient), Covered (Outpatient)" ,
+    "dental": "AED 3,670 (Routine Dental), AED 7,340 (Crowns/Bridgework)" ,
+    "optical": "AED 2,750" ,
+    "diagnostic_investigation_op_copay": "NIL" ,
+    "copayment_on_all_ip": "",
+    "Pharmacy_Copay": "Nil" ,
+    "Pharmacy_limit": "Covered" ,
+    "Medication_Type": "Prescribed medications" ,
+    "pec": "Covered" ,
+    "Repatriation_of_Mortal_Remains_to_the_Country_of_Domicile": "Covered" ,
+    "Nursing_at_home_by_a_registered_nurse": "Covered" ,
+    "OP_Psychiatric_Benefits": "In patient: Covered Out Patient: AED 9,200" ,
+    "Alternative Medicine": "AED 10,000" ,
+    "Routine_Health_Check_up": "AED 3,670" ,
+    "Physiotherapy": "Covered",
+    "custom_fields": {
+        "insurance_start_date": "01-09-2024",
+        "broker_name": "Al Raha",
+        "broker_contact_person": "Omar",
+        "account_manager": "Sabina",
+        "org_name": {
+            "label": "Annex",
+            "value": "1acc1296-f510-498c-a822-7ba0f1a344b9"
+        }
+    }
+}

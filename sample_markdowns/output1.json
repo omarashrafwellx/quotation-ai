@@ -1,0 +1,55 @@
+{
+    "tpa": "NAS",
+    "category_name": "Category A",
+    "region": "Dubai",
+    "plan_name": "",
+    "plan_access_details": "Direct access to UAE network",
+    "annual_medical_limit": "AED 150,000",
+    "inpatient_room_type": "Private",
+    "coinsurance": {
+        "percentage": "",
+        "details": ""
+    },
+    "consultation_deductible": "20% upto max of AED 50",
+    "area_of_coverage": "UAE + ISC + SEA + GCC",
+    "diagnostics_op_copay": "0%",
+    "pharmacy_copay": "0%",
+    "pharmacy_limit": "AED 10,000",
+    "medication_type": "",
+    "pec_limit": {
+        "limit": "AED 150,000",
+        "details": "6 months waiting period for new entrants without COC, otherwise covered up to annual aggregate limit"
+    },
+    "optional_benefits": {
+        "maternity": {
+            "limit": "AED 10,000",
+            "copay": "10%",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "dental": {
+            "limit": "Covered (Emergency cases only)",
+            "copay": "",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "optical": {
+            "limit": "Covered (Emergency cases only)",
+            "copay": "",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        }
+    },
+    "impact_to_base_rate": {
+        "aml": "",
+        "ip_room_type": "",
+        "coinsurance": "",
+        "consultation_deductible": "",
+        "area_of_coverage": "",
+        "diagnostics_op_copay": "",
+        "pharmacy_copay": "",
+        "pharmacy_limit": "",
+        "medication_type": "",
+        "pec_limit": ""
+    }
+}

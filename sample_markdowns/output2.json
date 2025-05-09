@@ -1,0 +1,55 @@
+{
+    "tpa": "MetLife",
+    "category_name": "Comprehensive Major Medical",
+    "region": "UAE",
+    "plan_name": "Comprehensive Major Medical",
+    "plan_access_details": "Direct billing at MetLife's Provider's Network (Standard) for OP & In-Patient (within geographical scope, with limitations & prior approval); Reimbursement available",
+    "annual_medical_limit": "AED 250,000",
+    "inpatient_room_type": "Average Private Room",
+    "coinsurance": {
+        "percentage": "100%",
+        "details": "100% coverage by insurer for In-Patient and most Out-Patient benefits (excluding O/P consultation fees which have a co-pay)"
+    },
+    "consultation_deductible": "20% of consultation fees up to a maximum of AED 50",
+    "area_of_coverage": "UAE, GCC, ME, ISC & SE ASIA",
+    "diagnostics_op_copay": "0%",
+    "pharmacy_copay": "0%",
+    "pharmacy_limit": "Not Applicable",
+    "medication_type": "",
+    "pec_limit": {
+        "limit": "Up to Policy limit",
+        "details": "Covered Up to Policy limit subject to providing valid evidence of the previous insurance coverage (for Previously/First Scheme Insured Members). Emergency pre-existing condition within 6 month exclusion period covered up to the annual aggregate limit."
+    },
+    "optional_benefits": {
+        "maternity": {
+            "limit": "Up to Policy Limit",
+            "copay": "0% Co-pay",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "dental": {
+            "limit": "",
+            "copay": "",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "optical": {
+            "limit": "",
+            "copay": "",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        }
+    },
+    "impact_to_base_rate": {
+        "aml": "",
+        "ip_room_type": "",
+        "coinsurance": "",
+        "consultation_deductible": "",
+        "area_of_coverage": "",
+        "diagnostics_op_copay": "",
+        "pharmacy_copay": "",
+        "pharmacy_limit": "",
+        "medication_type": "",
+        "pec_limit": ""
+    }
+}

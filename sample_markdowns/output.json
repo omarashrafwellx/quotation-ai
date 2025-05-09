@@ -1,0 +1,55 @@
+{
+    "tpa": "",
+    "category_name": "Comprehensive Major Medical",
+    "region": "",
+    "plan_name": "Comprehensive Major Medical",
+    "plan_access_details": "",
+    "annual_medical_limit": "AED 1,000,000",
+    "inpatient_room_type": "Private Room",
+    "coinsurance": {
+        "percentage": "0%",
+        "details": ""
+    },
+    "consultation_deductible": "",
+    "area_of_coverage": "UAE, GCC, ME, ISC & SE ASIA",
+    "diagnostics_op_copay": "0%",
+    "pharmacy_copay": "0%",
+    "pharmacy_limit": "",
+    "medication_type": "",
+    "pec_limit": {
+        "limit": "Upto Policy Limit",
+        "details": "Subject to providing valid evidence of previous insurance coverage for Previously Insured Members"
+    },
+    "optional_benefits": {
+        "maternity": {
+            "limit": "20000",
+            "copay": "0%",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "dental": {
+            "limit": "3000",
+            "copay": "20%",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        },
+        "optical": {
+            "limit": "2000",
+            "copay": "20%",
+            "number_of_lives": 0,
+            "additional_premium": ""
+        }
+    },
+    "impact_to_base_rate": {
+        "aml": "",
+        "ip_room_type": "",
+        "coinsurance": "",
+        "consultation_deductible": "",
+        "area_of_coverage": "",
+        "diagnostics_op_copay": "",
+        "pharmacy_copay": "",
+        "pharmacy_limit": "",
+        "medication_type": "",
+        "pec_limit": ""
+    }
+}
