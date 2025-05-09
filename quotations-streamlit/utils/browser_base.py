@@ -1102,7 +1102,7 @@ def main(QUOTE_DATA, BENEFIT_DETAILS_DATA, CENSUS_FILE_PATH):
         with sync_playwright() as p:
             # browser = p.chromium.connect_over_cdp(session.connect_url) # For Browserbase
             browser = p.chromium.launch(
-            headless=False,  # Set to True for production
+            headless=True,  # Set to True for production
             # args=[
             # '--disable-print-preview']
             ) # For local debugging

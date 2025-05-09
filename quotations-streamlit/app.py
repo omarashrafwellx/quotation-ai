@@ -14,10 +14,17 @@ from utils.json_conversion import to_json_string
 from utils.email_processing import extract_structured_data_from_email  # Import the email extraction function
 from utils.browser_base import main
 import subprocess
-import glob
-import base64
-import sys
 
+def install_playwright():
+    try:
+        result = subprocess.run(["playwright", "install"], check=True, capture_output=True, text=True)
+        print("Playwright installed successfully:")
+        print(result.stdout)
+    except subprocess.CalledProcessError as e:
+        print("Error during Playwright installation:")
+        print(e.stderr)
+
+install_playwright()
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 st.set_page_config(page_title="Census Data Processor", layout="wide")
