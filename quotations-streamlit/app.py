@@ -18,7 +18,22 @@ import subprocess
 def install_playwright():
     try:
         result = subprocess.run(["playwright", "install"], check=True, capture_output=True, text=True)
-        result_2 = subprocess.run(["sudo","playwright","install-deps"], check=True, capture_output=True, text=True)
+        packages = [
+            "libnss3",
+            "libnspr4",
+            "libatk1.0-0",
+            "libatk-bridge2.0-0",
+            "libatspi2.0-0",
+            "libxcomposite1",
+            "libxdamage1",
+            "libxfixes3",
+            "libxrandr2",
+            "libgbm1",
+            "libxkbcommon0",
+            "libasound2"
+        ]
+        command = ["apt-get", "install", "-y"] + packages
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
         print("Playwright installed successfully:")
         print(result.stdout)
     except subprocess.CalledProcessError as e:
