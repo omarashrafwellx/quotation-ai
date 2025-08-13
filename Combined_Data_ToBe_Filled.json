@@ -1,0 +1,164 @@
+{
+    "quote_data": {
+        "client_name": "ALACRITY CARGO CLEARING & SHIPPING L.L.C (BRANCH)",
+        "policy_start_date": "2026-10-10",
+        "broker_name": "Wellx.ai",
+        "broker_contact_person": "Omar Ashraf",
+        "relationship_manager": "Sabina",
+        "adjustments_discount": "0",
+        "brokerage_fees": "12.50",
+        "healthx": "7.50",
+        "tpa": "5",
+        "insurer": "5"
+    },
+    "tob_data_list": [
+        {
+            "category_name": {
+                "value": "Category-01 PRIVILEGE",
+                "changed": false,
+                "explanation": "Found exact match 'Category-01 PRIVILEGE' for category identifier from the table column header."
+            },
+            "policy_start_date": {
+                "value": "2024-09-01",
+                "changed": true,
+                "explanation": "Identified 'Policy Effective Date: 01/09/2024' as referring to policy start date, selected '2024-09-01' after reformatting from DD/MM/YYYY. This differs from the default '2025-04-08'."
+            },
+            "additional_loading": {
+                "value": "0",
+                "changed": false,
+                "explanation": "No specific value found for additional loading percentage, using default '0'."
+            },
+            "nas_network": {
+                "value": "RN",
+                "changed": false,
+                "explanation": "The TOB specifies Network as 'A.1' for both Inpatient and Outpatient. Since 'A.1' is not one of the allowed options ('RN', 'Rn 3.8', 'Dubai GN+', 'Dubai SRN'), using default 'RN'."
+            },
+            "annual_medical": {
+                "value": "AED 1,500,000",
+                "changed": true,
+                "explanation": "You requested for '5000000' (from 'AED 5,000,000' Yearly Maximum) for annual medical limit but we have selected '1500000' which is the highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "ip_room_type": {
+                "value": "Private",
+                "changed": false,
+                "explanation": "Identified 'Daily Room and Board: Standard Private Room' in TOB, selected 'Private' which semantically matches and is an allowed option."
+            },
+            "copayment_ip_daycase": {
+                "value": "0%",
+                "changed": false,
+                "explanation": "No specific copayment percentage found for inpatient/daycase services in TOB (e.g., 'Surgeon fees Covered'). Direct billing is mentioned within network. Using default '0%'."
+            },
+            "deductible_consultation": {
+                "value": "20% up to AED 50",
+                "changed": false,
+                "explanation": "Identified 'All Consultations Deductible/coinsurance: 20% Max AED 50' in TOB, selected '20% up to AED 50' which is an exact match to an allowed option."
+            },
+            "territorial_cover": {
+                "value": "UAE only",
+                "changed": false,
+                "explanation": "The TOB specifies 'Area of Cover: World wide excluding US'. As this specific value is not among the allowed options (where only 'UAE only' is listed as default/option in the schema comments), using default 'UAE only'."
+            },
+            "diagnostic_op_copay": {
+                "value": "0%",
+                "changed": false,
+                "explanation": "Identified 'Coinsurance/Deductible Nil' under the 'Diagnostics' section in TOB. 'Nil' translates to 0%, selected '0%' which is an exact match to an allowed option."
+            },
+            "pharmacy_copay": {
+                "value": "0 %",
+                "changed": false,
+                "explanation": "Identified 'Coinsurance/Deductible Nil' under the 'Diagnostics' section (which includes 'Prescribed drugs/medications') in TOB. 'Nil' translates to '0 %', selected '0 %' which is an exact match to an allowed option."
+            },
+            "pharmacy_limit": {
+                "value": "Upto AML",
+                "changed": false,
+                "explanation": "Identified 'Prescribed medications limit Covered' in TOB. 'Covered' semantically maps to 'Upto AML' when no specific sub-limit is given, selected 'Upto AML'."
+            },
+            "medication_type": {
+                "value": "Branded",
+                "changed": false,
+                "explanation": "No specific value found in TOB for medication type (Branded/Generic), using default 'Branded'."
+            },
+            "pec": {
+                "value": "Upto AML",
+                "changed": false,
+                "explanation": "Identified 'Pre-existing and Chronic conditions (Inpatient and Outpatient) Covered' in TOB. 'Covered' semantically maps to 'Upto AML' as it's an allowed option, selected 'Upto AML'."
+            },
+            "maternity_limit": {
+                "value": "40000",
+                "changed": true,
+                "explanation": "You requested for '36700' (from 'Maternity Benefit: Pregnancy and Childbirth AED 36,700') for maternity limit but we have selected '40000' which is the next highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "maternity_copay": {
+                "value": "0% copayment. Routine Benefits",
+                "changed": false,
+                "explanation": "Identified 'Deductible/ Coinsurance on Outpatient Consultations NIL' for maternity in TOB. 'NIL' translates to '0% copayment. Routine Benefits', selected '0% copayment. Routine Benefits'."
+            },
+            "dental_limit": {
+                "value": "5000",
+                "changed": true,
+                "explanation": "You requested for '3670' (from 'Routine Dental Benefit Consultation AED 3,670', taken as overall limit) for dental limit but we have selected '5000' which is the next highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "dental_copay": {
+                "value": "10% copayment. Routine Benefits",
+                "changed": false,
+                "explanation": "The TOB specifies '0%' for 'Coinsurance on ALL Routine Dental treatment'. This value ('0%') is not an available option from the allowed list for this field ('10% copayment. Routine Benefits', '20% copayment. Routine Benefits', '30% copayment. Routine Benefits'). Using the default value '10% copayment. Routine Benefits'."
+            },
+            "optical_limit": {
+                "value": "2500",
+                "changed": true,
+                "explanation": "You requested for '2750' (from 'Optometrist evaluation... AED 2,750') for optical limit but we have selected '2500' which is the closest highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "optical_copay": {
+                "value": "10% copayment. Routine Benefits",
+                "changed": false,
+                "explanation": "The TOB specifies 'Coinsurance Nil' (0%) for optical benefit. The option '0% copayment. Routine Benefits' is explicitly disallowed by schema notes for this field. Using the default value '10% copayment. Routine Benefits' from the allowed options."
+            },
+            "repatriation": {
+                "value": "5,000",
+                "changed": false,
+                "explanation": "Identified 'Repatriation of mortal remains Covered' under IEMA in TOB. No specific monetary value is provided from the allowed list, using default '5000'."
+            },
+            "nursing_at_home": {
+                "value": "1,000",
+                "changed": true,
+                "explanation": "The TOB states 'Nursing at home ... Covered'. The default for this field is 'Not Covered'. Since 'Covered' implies a benefit exists and no specific monetary limit from the allowed options is mentioned (and 'Upto AML' is not an option), '1000' (representing the lowest available specific coverage tier) has been selected. This adjustment reflects coverage intent from TOB."
+            },
+            "op_psychiatric_limit": {
+                "value": "10,000",
+                "changed": true,
+                "explanation": "You requested for '9200' (from 'Psychiatric Treatment ... Out Patient: AED 9,200') for outpatient psychiatric limit but we have selected '10000' which is the next highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "op_psychiatric_copay": {
+                "value": "20% of Co-Pay",
+                "changed": true,
+                "explanation": "Identified general outpatient consultation copay '20% Max AED 50' as applicable to outpatient psychiatric treatment (as it's an outpatient service). Selected '20% of Co-Pay' to match the 20% component, this differs from the default '0% of Co-Pay'."
+            },
+            "alternative_medicine_limit": {
+                "value": "10,000",
+                "changed": false,
+                "explanation": "Found exact match '10000' (from 'Alternative and Complimentary Medicine ... AED 10,000') for alternative medicine limit in TOB, which is an allowed option."
+            },
+            "alternative_medicine_copay": {
+                "value": "20% of Co-Pay",
+                "changed": true,
+                "explanation": "Identified general outpatient consultation copay '20% Max AED 50' as applicable to alternative medicine (as it's an outpatient service). Selected '20% of Co-Pay' to match the 20% component, this differs from the default '0% of Co-Pay'."
+            },
+            "routine_health_checkup": {
+                "value": "3,000",
+                "changed": true,
+                "explanation": "You requested for '3670' (from 'Screening / Health Check-up (Routine) AED 3,670') for routine health checkup limit but we have selected '3000' which is the closest highest available option from the allowed list and aligns more closely with our business rules."
+            },
+            "physiotherapy_limit": {
+                "value": "Up to AML",
+                "changed": true,
+                "explanation": "Identified Outpatient Physiotherapy as 'Covered' in TOB. Since no specific session limit or monetary sub-limit is mentioned and 'Up to AML' is an available option, selected 'Up to AML'. This differs from the default 'Not Covered'."
+            },
+            "physiotherapy_copay": {
+                "value": "20% of Co-Pay",
+                "changed": true,
+                "explanation": "Identified general outpatient consultation copay '20% Max AED 50' as applicable to physiotherapy (as it's an outpatient service). Selected '20% of Co-Pay' to match the 20% component, this differs from the default '0% of Co-Pay'."
+            }
+        }
+    ],
+    "excel_file_path": "./attachments\\email_AAMkAGFiZDdkNzU5LTI2MWQtNDBmZi1iNWRjLTJhY2MyNjgzMWFjYgBGAAAAAABXWzGuoy-RT6PmBgUBSnIJBwD16mRpZTY_TZVyykE1CSttAAAAAAEMAAD16mRpZTY_TZVyykE1CSttAAAdkxe-AAA=_20250626_135557_393446_d9a746da\\MemberCensusDataTemplate_standardized.xls"
+}

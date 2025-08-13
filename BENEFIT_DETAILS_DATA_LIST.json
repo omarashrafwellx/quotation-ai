@@ -1,0 +1,149 @@
+[
+    {
+        "category_name": {
+            "value": "Category-01 PRIVILEGE",
+            "changed": false,
+            "explanation": "Found exact match 'Category-01 PRIVILEGE' for category identifier from 'Category-01 PRIVILEGE' in the TOB."
+        },
+        "policy_start_date": {
+            "value": "2024-09-01",
+            "changed": false,
+            "explanation": "Found '01/09/2024' for policy start date in TOB, used '2024-09-01' after reformatting to YYYY-MM-DD."
+        },
+        "additional_loading": {
+            "value": "0",
+            "changed": false,
+            "explanation": "No specific value found for additional loading, using default '0'."
+        },
+        "nas_network": {
+            "value": "RN",
+            "changed": false,
+            "explanation": "Identified network 'A.1' in TOB. As 'A.1' is not an available option from the allowed list ('RN', 'Rn 3.8', 'Dubai GN+', 'Dubai SRN'), using default 'RN'."
+        },
+        "annual_medical": {
+            "value": "AED 1,500,000",
+            "changed": true,
+            "explanation": "You requested for '5000000' (from 'AED 5,000,000' in TOB) for annual medical limit but we have selected '1500000' which is the highest available option from the list ['150000', '200000', '250000', '300000', '500000', '750000', '1000000', '1500000'] and aligns more closely with our business rules."
+        },
+        "ip_room_type": {
+            "value": "Private",
+            "changed": false,
+            "explanation": "Identified 'Standard Private Room' in TOB as referring to inpatient room type, selected 'Private' which is an exact match from the allowed options ('Private', 'Semi-Private', 'Shared')."
+        },
+        "copayment_ip_daycase": {
+            "value": "0%",
+            "changed": false,
+            "explanation": "No specific copayment mentioned for in-network inpatient/daycare in TOB; 'Direct billing within network' and 'Covered' for related items imply 0% copay. Using default '0%' from allowed options ('0%', '5%', '10%', '15%', '20%')."
+        },
+        "deductible_consultation": {
+            "value": "20% up to AED 50",
+            "changed": false,
+            "explanation": "Found '20% Max AED 50' in TOB for deductible consultation, selected '20% up to AED 50' as an exact match from the allowed options."
+        },
+        "territorial_cover": {
+            "value": "UAE only",
+            "changed": true,
+            "explanation": "You requested for 'World wide excluding US' for territorial cover (found in TOB) but we have selected 'UAE only'. This selection aligns with business rules because 'World wide excluding US' is not an exact match for 'UAE only', and 'UAE only' is the only option specified as available (as default without other listed options) in the schema for this field."
+        },
+        "diagnostic_op_copay": {
+            "value": "0%",
+            "changed": false,
+            "explanation": "Identified 'Nil' in TOB for diagnostic Coinsurance/Deductible, selected '0%' as the semantically equivalent allowed option from the list ('0%','5%','10%','15%','20%', '10','20','25','30','50','75', '100')."
+        },
+        "pharmacy_copay": {
+            "value": "0 %",
+            "changed": false,
+            "explanation": "Identified 'Nil' in TOB for Prescribed drugs/medications Coinsurance/Deductible, selected '0 %' as the semantically equivalent allowed option from the list ('0 %', '5 %','10 %','15 %','20 %','25 %', '30 %')."
+        },
+        "pharmacy_limit": {
+            "value": "Upto AML",
+            "changed": false,
+            "explanation": "Identified 'Covered' in TOB for prescribed medications limit, selected 'Upto AML' as this typically means coverage up to the annual medical limit and is an allowed option."
+        },
+        "medication_type": {
+            "value": "Branded",
+            "changed": false,
+            "explanation": "No specific value found in TOB for medication type, using default 'Branded' from allowed options ('Branded', 'Generic')."
+        },
+        "pec": {
+            "value": "Upto AML",
+            "changed": false,
+            "explanation": "Identified 'Covered' in TOB for Pre-existing and Chronic conditions, selected 'Upto AML' from allowed options ('Upto AML', '150000', '250000')."
+        },
+        "maternity_limit": {
+            "value": "40000",
+            "changed": true,
+            "explanation": "You requested for '36700' (from 'AED 36,700' in TOB) for maternity limit but we have selected '40000' which is the next highest available option from the list ('Up to AML', '7500', '10000', '15000', '20000', '25000', '30000', '40000', '50000') and aligns more closely with our business rules."
+        },
+        "maternity_copay": {
+            "value": "0% copayment. Routine Benefits",
+            "changed": false,
+            "explanation": "Identified 'NIL' Deductible/Coinsurance in TOB for maternity outpatient consultations, selected '0% copayment. Routine Benefits' as the corresponding option from ('0% copayment. Routine Benefits', '10% copayment. Routine Benefits')."
+        },
+        "dental_limit": {
+            "value": "5000",
+            "changed": true,
+            "explanation": "Identified multiple dental benefits in TOB valued at 'AED 3,670'. Assuming '3670' as the primary dental limit requested, we have selected '5000' which is the next highest available option from the list ('Not Covered', '500', '1000','2000','2500','3000', '3500', '5000', '7500', '10000') and aligns more closely with our business rules."
+        },
+        "dental_copay": {
+            "value": "10% copayment. Routine Benefits",
+            "changed": false,
+            "explanation": "TOB specifies 'Coinsurance on ALL Routine Dental treatment ... | 50% (Orthodontics)'. This '50%' applies specifically to orthodontics, and '50%' is not an allowed option for general routine dental copay ('10% copayment. Routine Benefits', '20% copayment. Routine Benefits', '30% copayment. Routine Benefits'). No other general dental copay found, using default '10% copayment. Routine Benefits'."
+        },
+        "optical_limit": {
+            "value": "2500",
+            "changed": true,
+            "explanation": "You requested for '2750' (from 'AED 2,750' in TOB) for optical limit but we have selected '2500' which is the closest (and highest) available option from the list ('Not Covered', '300', '500', '750','1000', '1500', '2000', '2500') and aligns more closely with our business rules."
+        },
+        "optical_copay": {
+            "value": "10% copayment. Routine Benefits",
+            "changed": true,
+            "explanation": "Identified 'Nil' (implying 0%) in TOB for optical coinsurance. However, '0% copayment. Routine Benefits' is explicitly disallowed as an option for this field. We have selected '10% copayment. Routine Benefits' from the allowed list ('10% copayment. Routine Benefits', '20% copayment. Routine Benefits','30% copayment. Routine Benefits') as the closest available option, aligning with business rules."
+        },
+        "repatriation": {
+            "value": "5,000",
+            "changed": false,
+            "explanation": "Identified 'Covered' in TOB for Repatriation of mortal remains. No specific monetary limit was found, using default '5000' from the allowed options ('5000', '7500', '10000', '20000', '25000', '30000')."
+        },
+        "nursing_at_home": {
+            "value": "Not Covered",
+            "changed": true,
+            "explanation": "You requested for 'Covered' (from TOB) for nursing at home. However, 'Covered' is not a specific monetary limit from the allowed options ('Not Covered', '1000', ..., '24000'), and 'Up to AML' is not permitted for this field. As a specific allowed monetary value was not provided in the TOB, we have selected the default 'Not Covered'. This may require clarification as the TOB indicates coverage exists."
+        },
+        "op_psychiatric_limit": {
+            "value": "10,000",
+            "changed": true,
+            "explanation": "You requested for '9200' (from 'AED 9,200' in TOB) for outpatient psychiatric limit but we have selected '10000' which is the next highest available option from the list ('Not Covered', '800', ..., '7500', '10000', '15000') and aligns more closely with our business rules."
+        },
+        "op_psychiatric_copay": {
+            "value": "0% of Co-Pay",
+            "changed": false,
+            "explanation": "No specific copay found in TOB for outpatient psychiatric treatment, using default '0% of Co-Pay' from the allowed options ('0% of Co-Pay', '10% of Co-Pay', '20% of Co-Pay','30% of Co-Pay')."
+        },
+        "alternative_medicine_limit": {
+            "value": "10,000",
+            "changed": false,
+            "explanation": "Found 'AED 10,000' in TOB for alternative medicine limit, selected '10000' as an exact match from the allowed options ('Not Covered', '1000', ..., '10000')."
+        },
+        "alternative_medicine_copay": {
+            "value": "0% of Co-Pay",
+            "changed": false,
+            "explanation": "No specific copay found in TOB for alternative medicine, using default '0% of Co-Pay' from the allowed options ('0% of Co-Pay', '10% of Co-Pay', '20% of Co-Pay', '30% of Co-Pay')."
+        },
+        "routine_health_checkup": {
+            "value": "3,000",
+            "changed": true,
+            "explanation": "You requested for '3670' (from 'AED 3,670' in TOB) for routine health checkup limit but we have selected '3000' which is the closest (and highest) available option from the list ('Not Covered', '1000', '1500', '2000', '2500', '3000') and aligns more closely with our business rules."
+        },
+        "physiotherapy_limit": {
+            "value": "Up to AML",
+            "changed": false,
+            "explanation": "Identified 'Covered' in TOB for Physiotherapy with no specific session or monetary limit stated. Selected 'Up to AML' as the appropriate available option from the list ('Not Covered', '6 Sessions', ..., '30 Sessions', 'Up to AML')."
+        },
+        "physiotherapy_copay": {
+            "value": "0% of Co-Pay",
+            "changed": false,
+            "explanation": "No specific copay found in TOB for physiotherapy, using default '0% of Co-Pay' from the allowed options ('0% of Co-Pay', '10% of Co-Pay', '20% of Co-Pay')."
+        }
+    }
+]
