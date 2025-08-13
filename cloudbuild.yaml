@@ -1,0 +1,48 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/quotation-ai-webhook:$COMMIT_SHA', '.']
+  
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/quotation-ai-webhook:$COMMIT_SHA']
+  
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'quotation-ai-webhook'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/quotation-ai-webhook:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--memory'
+      - '4Gi'
+      - '--cpu'
+      - '2'
+      - '--timeout'
+      - '900'
+      - '--max-instances'
+      - '10'
+      - '--min-instances'
+      - '1'
+      - '--concurrency'
+      - '50'
+      - '--service-account'
+      - 'quotation-ai-sa@$PROJECT_ID.iam.gserviceaccount.com'
+      - '--set-env-vars'
+      - 'PORT=8080,REDIS_URL=redis://34.9.143.79:6379,DB_HOST=34.122.188.85,DB_PORT=5432,DB_NAME=quotation_system,DB_USER=quotation_user,GCS_BUCKET_NAME=email_attachments_wellx,GCS_AUTH_JSON_FILE=/app/wellx-ai-staging.json,EMAIL=admin@wellx.co,TENANT_ID=d95714da-71c4-48eb-9af2-dd7eba560e41,CLIENT_ID=abd2203d-f8b9-4492-8cfe-afebbbfcca80,PROJECT_ID=e11189be-c401-44b6-977e-046fc3ec1708,SLACK_CHANNEL_NAME=ai-quotation-alerts,OPENAI_API_BASE=http://38.128.232.177:36402/v1,OPENAI_API_KEY=EMPTY,MAX_CONCURRENT_PROCESSING=3,WEBHOOK_CLIENT_STATE=secure123'
+      - '--set-secrets'
+      - 'DB_PASSWORD=db-password:latest,PASSWORD=admin-password:latest,GEMINI_API_KEY=gemini-api-key:latest,BROWSERBASE_API_KEY=browserbase-api-key:latest,SLACK_API_KEY=slack-api-key:latest,CLIENT_SECRET=azure-client-secret:latest,MODEL_API_KEY=model-api-key:latest'
+
+images:
+  - 'gcr.io/$PROJECT_ID/quotation-ai-webhook:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'

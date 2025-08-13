@@ -11,20 +11,16 @@ from google.cloud import storage
 from google.oauth2 import service_account
 from src.core.config import settings
 from src.core.exceptions import StorageError
+from google.auth import default
 
 class GCSManager:
-    """Manages Google Cloud Storage operations."""
-    
     def __init__(self):
         self.bucket_name = settings.GCS_BUCKET_NAME
-        self.service_account_key_path = settings.GCS_AUTH_JSON_FILE
-        self.executor = ThreadPoolExecutor(max_workers=10)
         
-        # Initialize GCP credentials
+        # Use Application Default Credentials instead of JSON file
         try:
-            self.credentials = service_account.Credentials.from_service_account_file(
-                self.service_account_key_path
-            )
+            # This automatically uses the service account attached to Cloud Run
+            self.credentials, self.project = default()
             self.storage_client = storage.Client(credentials=self.credentials)
             self.bucket = self.storage_client.bucket(self.bucket_name)
         except Exception as e:
