@@ -8,7 +8,6 @@ quotation_venv/
 *.json
 wellx-ai-staging.json
 token.json
-.vscode/
 .idea/
 *.log
 attachments/
@@ -16,3 +15,6 @@ temp_attachments/
 email_cache/
 TEMP_CENSUS_FILE_PATH/
 test.ipynb
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
