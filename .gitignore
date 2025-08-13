@@ -4,11 +4,9 @@ __pycache__/
 .Python
 quotation-venv/
 quotation_venv/
-.env
 *.json
 wellx-ai-staging.json
 token.json
-.vscode/
 .idea/
 *.log
 attachments/
@@ -16,3 +14,8 @@ temp_attachments/
 email_cache/
 TEMP_CENSUS_FILE_PATH/
 test.ipynb
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
